@@ -1,5 +1,4 @@
 ﻿using Castle.MicroKernel.SubSystems.Conversion;
-using Model;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;

@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace Models
 {
     /// <summary>
     /// 工作步骤表
     /// </summary>
-    public class WorkFlow_InstanceStep:IBaseEntity
+    public class WorkFlow_InstanceStep:BaseEntity
     {
         /// <summary>
         /// 工作流实例Id

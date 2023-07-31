@@ -1,0 +1,5 @@
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CoreCompileInputs.cache

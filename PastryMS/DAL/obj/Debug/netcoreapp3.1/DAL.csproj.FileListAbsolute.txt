@@ -1,0 +1,5 @@
+D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache

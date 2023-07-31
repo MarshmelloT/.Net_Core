@@ -1,0 +1,13 @@
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.deps.json
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.dll
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\Models.dll
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CoreCompileInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CopyComplete
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.dll
+D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.pdb

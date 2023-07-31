@@ -1,0 +1,8 @@
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.MvcApplicationPartsAssemblyInfo.cache
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cache
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cs

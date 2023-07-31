@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace Models
 {
     /// <summary>
     /// 用户角色表
     /// </summary>
-    public class R_UserInfo_RoleInfo:IBaseEntity
+    public class R_UserInfo_RoleInfo:BaseEntity
     {
         /// <summary>
         /// 用户Id

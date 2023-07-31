@@ -5,12 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Model
+namespace Models
 {
     /// <summary>
     /// 角色权限表
     /// </summary>
-    public class R_RoleInfo_MenuInfo:IBaseEntity
+    public class R_RoleInfo_MenuInfo:BaseEntity
     {
         /// <summary>
         /// 角色Id
