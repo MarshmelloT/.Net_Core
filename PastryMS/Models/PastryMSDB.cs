@@ -34,6 +34,8 @@ namespace Models
         public virtual DbSet<WorkFlow_Instance> WorkFlow_Instance { get; set; }
         public virtual DbSet<WorkFlow_InstanceStep> WorkFlow_InstanceStep { get; set; }
         public virtual DbSet<WorkFlow_Model> WorkFlow_Model { get; set; }
+
+        public virtual DbSet<Refund_Instance> Refund_Instance { get; set; }
     }
 
     //public class MyEntity
