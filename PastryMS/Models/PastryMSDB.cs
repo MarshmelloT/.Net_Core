@@ -23,6 +23,7 @@ namespace Models
         public virtual DbSet<Category> Category { get; set; }
         public virtual DbSet<ConsumableInfo> ConsumableInfo { get; set; }
         public virtual DbSet<ConsumableRecord> ConsumableRecord { get; set; }
+        public virtual DbSet<Customer_Refund_InstanceStep> Customer_Refund_InstanceStep { get; set; }
         public virtual DbSet<DessertInfo> DessertInfo { get; set; }
         public virtual DbSet<DessertTypeInfo> DessertTypeInfo { get; set; }
         public virtual DbSet<MenuInfo> MenuInfo { get; set; }

@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="NPOI" Version="2.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\IBLL\IBLL.csproj" />
     <ProjectReference Include="..\IDAL\IDAL.csproj" />
   </ItemGroup>
