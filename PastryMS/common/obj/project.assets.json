@@ -8,11 +8,16 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\abc\\.nuget\\packages\\": {}
+>>>>>>> 041b110fa66c3ebbc745422c9a90000d8e55d8a1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
       "projectName": "common",
       "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
@@ -21,6 +26,16 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "projectName": "common",
+      "projectPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 041b110fa66c3ebbc745422c9a90000d8e55d8a1
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +66,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +75,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+>>>>>>> 041b110fa66c3ebbc745422c9a90000d8e55d8a1
       }
     }
   }
