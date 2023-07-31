@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {}
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
         "projectName": "common",
-        "projectPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
-        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\",
+        "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
+        "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }
