@@ -1,8 +1,14 @@
+using BLL;
+using DAL;
+using IBLL;
+using IDAL;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +29,58 @@ namespace UI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
+            //×¢²ásession
+            services.AddSession();
+
+            services.AddDbContext<PastryMSDB>(options => options.UseSqlServer("name=ConnectionStrings:SqlStr"));
+            //¿çÓò
+            services.AddCors(options =>
+            {
+                options.AddPolicy("MyCorsPolicy", builder =>
+                {
+                    builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader();
+
+                });
+            });
+
+            //½ÇÉ«
+            services.AddScoped<IRoleInfoDAL, RoleInfoDAL>();
+            services.AddScoped<IRoleInfoBLL, RoleInfoBLL>();
+
+            //°ó¶¨½ÇÉ«
+            services.AddScoped<IR_UserInfo_RoleInfoDAL, R_UserInfo_RoleInfoDAL>();
+            //services.AddScoped<IR_UserInfo_RoleInfoBLL, R_UserInfo_RoleInfoBLL>();
+
+            //²Ëµ¥
+            services.AddScoped<IMenuInfoDAL, MenuInfoDAL>();
+            services.AddScoped<IMenuInfoBLL, MenuInfoBLL>();
+
+            //°ó¶¨²Ëµ¥
+            //services.AddScoped<IR_RoleInfo_MenuInfoBLL, R_RoleInfo_MenuInfoBLL>();
+            services.AddScoped<IR_RoleInfo_MenuInfoDAL, R_RoleInfo_MenuInfosDAL>();
+
+            services.AddScoped<IConsumableInfoDAL, ConsumableInfoDAL>();
+            services.AddScoped<IConsumableInfoBLL, ConsumableInfoBLL>();
+
+            services.AddScoped<ICategoryDAL, CategoryDAL>();
+            services.AddScoped<ICategoryBLL, CategoryBLL>();
+
+            services.AddScoped<IWorkFlow_ModelBLL, WorkFlow_ModelBLL>();
+            services.AddScoped<IWorkFlow_ModelDAL, WorkFlow_ModelDAL>();
+
+            services.AddScoped<IWorkFlow_InstanceBLL, WorkFlow_InstanceBLL>();
+            services.AddScoped<IWorkFlow_InstanceDAL, WorkFlow_InstanceDAL>();
+
+            services.AddScoped<IWorkFlow_InstanceStepBLL, WorkFlow_InstanceStepBLL>();
+            services.AddScoped<IWorkFlow_InstanceStepDAL, WorkFlow_InstanceStepDAL>();
+
+            services.AddScoped<ICustomer_Refund_InstanceStepDAL, Customer_Refund_InstanceStepDAL>();
+            services.AddScoped<ICustomer_Refund_InstanceStepBLL, Customer_Refund_InstanceStepBLL>();
+
+
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
