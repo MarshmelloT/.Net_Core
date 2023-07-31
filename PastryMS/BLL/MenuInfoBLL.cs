@@ -1,8 +1,7 @@
-﻿using DAL;
-using IBLL;
+﻿using IBLL;
 using IDAL;
 using Model;
-using NStandard;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,12 +12,12 @@ namespace BLL
 {
     public class MenuInfoBLL : IMenuInfoBLL
     {
-        private RepositorySysDB _dbContext;
+        private PastryMSDB _dbContext;
         private IMenuInfoDAL _MenuInfoDAL;
         private IR_UserInfo_RoleInfoDAL _UserInfo_RoleInfoDAL;
         private IR_RoleInfo_MenuInfoDAL _RoleInfo_MenuInfoDAL;
         public MenuInfoBLL(
-            RepositorySysDB dbContext
+            PastryMSDB dbContext
             , IMenuInfoDAL MenuInfoDAL
             , IR_UserInfo_RoleInfoDAL UserInfo_RoleInfoDAL
             , IR_RoleInfo_MenuInfoDAL RoleInfo_MenuInfoDAL

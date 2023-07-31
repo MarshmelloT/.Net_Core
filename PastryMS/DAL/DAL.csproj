@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\IBLL\IBLL.csproj" />
     <ProjectReference Include="..\IDAL\IDAL.csproj" />
   </ItemGroup>
 
