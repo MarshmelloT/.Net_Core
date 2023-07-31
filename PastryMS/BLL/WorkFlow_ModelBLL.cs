@@ -1,6 +1,5 @@
-﻿using DAL;
+﻿using IDAL;
 using IBLL;
-using IDAL;
 using Model;
 using Model.DTO;
 using System;
@@ -8,14 +7,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Models;
 
 namespace BLL
 {
     public class WorkFlow_ModelBLL : IWorkFlow_ModelBLL
     {
-        private RepositorySysDB _dbContext;
+        private PastryMSDB _dbContext;
         private IWorkFlow_ModelDAL _workFlow_ModelDAL;
-        public WorkFlow_ModelBLL(RepositorySysDB dbContext
+        public WorkFlow_ModelBLL(PastryMSDB dbContext
             , IWorkFlow_ModelDAL workFlow_ModelDAL
             )
         {
