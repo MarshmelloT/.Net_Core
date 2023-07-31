@@ -34,6 +34,7 @@ namespace Models
         public virtual DbSet<WorkFlow_Instance> WorkFlow_Instance { get; set; }
         public virtual DbSet<WorkFlow_InstanceStep> WorkFlow_InstanceStep { get; set; }
         public virtual DbSet<WorkFlow_Model> WorkFlow_Model { get; set; }
+        public virtual DbSet<OrdersInfo> OrdersInfo { get; set; }//客户订单信息表
     }
 
     //public class MyEntity
