@@ -3,3 +3,16 @@ D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.Genera
 D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfoInputs.cache
 D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfo.cs
 D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb

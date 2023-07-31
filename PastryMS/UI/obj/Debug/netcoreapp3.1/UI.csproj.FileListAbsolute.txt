@@ -6,3 +6,11 @@ D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.Cor
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.MvcApplicationPartsAssemblyInfo.cache
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cache
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cs
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cache
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cs

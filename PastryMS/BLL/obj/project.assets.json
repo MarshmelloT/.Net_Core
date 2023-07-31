@@ -5185,6 +5185,7 @@
     ".NETCoreApp,Version=v3.1": [
       "IBLL >= 1.0.0",
       "IDAL >= 1.0.0",
+      "Models >= 1.0.0",
       "NPOI >= 2.6.1"
     ]
   },
@@ -5220,6 +5221,9 @@
             },
             "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
               "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+            },
+            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj"
             }
           }
         }
