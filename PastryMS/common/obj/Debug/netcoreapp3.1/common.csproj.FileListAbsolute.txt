@@ -8,3 +8,13 @@ C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
+D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.deps.json
+D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.dll
+D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.pdb
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb

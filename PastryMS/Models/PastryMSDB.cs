@@ -34,12 +34,9 @@ namespace Models
         public virtual DbSet<WorkFlow_Instance> WorkFlow_Instance { get; set; }
         public virtual DbSet<WorkFlow_InstanceStep> WorkFlow_InstanceStep { get; set; }
         public virtual DbSet<WorkFlow_Model> WorkFlow_Model { get; set; }
-<<<<<<< HEAD
         public virtual DbSet<OrdersInfo> OrdersInfo { get; set; }//客户订单信息表
-=======
+        public virtual DbSet<Customer_Refund_Instance> Customer_Refund_Instance { get; set; }
 
-        public virtual DbSet<Refund_Instance> Refund_Instance { get; set; }
->>>>>>> 02370d8a207176bb7bd2eb25b832fed1c9e47e6b
     }
 
     //public class MyEntity

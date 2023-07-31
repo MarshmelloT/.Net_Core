@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "iNAF+XHbu3pEo9jhQ/iseWn+iaZ8lTiGrvaYZ0Hvlbr2F21fA0/TiJUV323lgMGYB6l4zKE7sA5ZW5xOKv4CQA==",
   "success": true,
   "projectFilePath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
-=======
-  "dgSpecHash": "9Kjmx0FI6aDgqkLiO5O8e0CmQ7Rb0CjEj8JYxgixeaQQYgmrki4OymIQT4KX7vxJ3Lh5mq62hU/WvU3eXOKkMg==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
->>>>>>> 041b110fa66c3ebbc745422c9a90000d8e55d8a1
   "expectedPackageFiles": [],
   "logs": []
 }
