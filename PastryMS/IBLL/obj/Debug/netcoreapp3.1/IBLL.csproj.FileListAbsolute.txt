@@ -16,3 +16,11 @@ C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\I
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.dll
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
