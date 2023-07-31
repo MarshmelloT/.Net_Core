@@ -78,6 +78,10 @@ namespace UI
             services.AddScoped<ICustomer_Refund_InstanceStepDAL, Customer_Refund_InstanceStepDAL>();
             services.AddScoped<ICustomer_Refund_InstanceStepBLL, Customer_Refund_InstanceStepBLL>();
 
+            //客户信息表注册DAL和BLL
+            services.AddScoped<ICustomerInfoDAL, CustomerInfoDAL>();
+            services.AddScoped<ICustomerInfoBLL, CustomerInfoBLL>();
+
 
         }
 

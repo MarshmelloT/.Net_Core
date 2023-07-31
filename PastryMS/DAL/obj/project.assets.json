@@ -4117,19 +4117,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
+    "C:\\Users\\whz\\.nuget\\packages\\": {},
+    "D:\\Visual Studio\\VSshared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\obj\\",
+      "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
+      "packagesPath": "C:\\Users\\whz\\.nuget\\packages\\",
+      "outputPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\DAL\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Visual Studio\\VSshared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\whz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4143,11 +4148,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
+            "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
+              "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
             },
-            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+            "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+              "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
             }
           }
         }
@@ -4177,7 +4182,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

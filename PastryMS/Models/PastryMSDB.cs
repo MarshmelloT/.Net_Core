@@ -36,6 +36,7 @@ namespace Models
         public virtual DbSet<WorkFlow_Model> WorkFlow_Model { get; set; }
         public virtual DbSet<OrdersInfo> OrdersInfo { get; set; }//客户订单信息表
         public virtual DbSet<Customer_Refund_Instance> Customer_Refund_Instance { get; set; }
+        public virtual DbSet<CustomerInfo> CustomerInfo { get; set; }//客户信息表
 
     }
 
