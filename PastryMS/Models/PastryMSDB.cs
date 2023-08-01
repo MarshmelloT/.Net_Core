@@ -37,6 +37,8 @@ namespace Models
         public virtual DbSet<OrdersInfo> OrdersInfo { get; set; }//客户订单信息表
         public virtual DbSet<Customer_Refund_Instance> Customer_Refund_Instance { get; set; }
         public virtual DbSet<CustomerInfo> CustomerInfo { get; set; }//客户信息表
+        public virtual DbSet<StaffInfo> StaffInfo { get; set; }//客户信息表
+
 
     }
 

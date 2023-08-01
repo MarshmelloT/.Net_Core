@@ -7,7 +7,7 @@ using System.Text;
 
 namespace DAL
 {
-    public class Refund_InstanceDAL : BaseDAL<Refund_Instance>, IRefund_InstanceDAL
+    public class Refund_InstanceDAL : BaseDAL<Customer_Refund_Instance>, ICustomer_Refund_InstanceDAL
     {
         private PastryMSDB _dbContext;
 
@@ -16,9 +16,9 @@ namespace DAL
             _dbContext= dbContext;
         }
 
-        public DbSet<Refund_Instance> GetRefund_Instance()
+        public DbSet<Customer_Refund_Instance> GetRefund_Instance()
         {
-            return _dbContext.Refund_Instance;
+            return _dbContext.Customer_Refund_Instance;
         }
     }
 }

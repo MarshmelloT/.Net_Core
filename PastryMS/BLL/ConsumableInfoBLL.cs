@@ -305,7 +305,7 @@ namespace BLL
                          into tempCRC
                          from cc in tempCRC.DefaultIfEmpty()
 
-                         join u in _dbContext.UserInfo
+                         join u in _dbContext.StaffInfo
                          on cc.CategoryId equals u.Id
                          into tempCCU
                          from uu in tempCCU.DefaultIfEmpty()
@@ -316,7 +316,7 @@ namespace BLL
                              Type = cr.Type == (int)ConsumableInfoTypeEnums.入库 ? "出库" : "入库",//出入库类型
                              cc.Num,//每次出入库的数量
                              CreateTime = cr.CreateTime,
-                             uu.UserName,//操作人
+                             uu.StaffName,//操作人
                          }).ToList();
 
             //开始对文件进行操作
@@ -386,7 +386,7 @@ namespace BLL
                     tempCell4.SetCellValue(data.CreateTime.ToString("yyyy-MM-dd hh:mm:ss"));
 
                     ICell tempCell5 = tempRow.CreateCell(5);
-                    tempCell5.SetCellValue(data.UserName);
+                    tempCell5.SetCellValue(data.StaffName);
                 }
 
                 //把Excel写入到文件里

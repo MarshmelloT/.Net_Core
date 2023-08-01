@@ -18,7 +18,7 @@ namespace UI
     {
         public static void Main(string[] args)
         {
-            initDB();
+            //initDB();
 
             CreateHostBuilder(args).Build().Run();
         }
@@ -35,21 +35,20 @@ namespace UI
                             .UseSqlServer(@"data source=.;Initial catalog=PastryMSDB;integrated security=True")
                             .Options;
 
-            PastryMSDB db = new PastryMSDB();
+            PastryMSDB db = new PastryMSDB(dbOptions);
 
             db.Database.EnsureDeleted();
             db.Database.EnsureCreated();
 
-            UserInfo userInfo = new UserInfo();
+            CustomerInfo userInfo = new CustomerInfo();
             userInfo.Id = Guid.NewGuid().ToString();
             userInfo.Account = "admin";
-            userInfo.PassWord = MD5Help.GenerateMD5("123456");
+            userInfo.Pwd = MD5Help.GenerateMD5("123456");
             userInfo.CreateTime = DateTime.Now;
-            userInfo.IsAdmin = true;
-            userInfo.UserName = "初始化创建的用户";
+            userInfo.CustomerName = "初始化创建的用户";
 
 
-            db.UserInfo.Add(userInfo);//添加数据库
+            db.CustomerInfo.Add(userInfo);//添加数据库
             db.SaveChanges();//提交数据库
 
 

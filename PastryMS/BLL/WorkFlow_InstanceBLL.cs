@@ -54,39 +54,39 @@ namespace BLL
                         return false;
                     }
 
-                    UserInfo userInfo = _dbContext.UserInfo.FirstOrDefault(u => u.Id == userId);
-                    if (userInfo == null || string.IsNullOrWhiteSpace(userInfo.DepartmentId))
-                    {
-                        transaction.Rollback();
-                        msg = "当前用户没有部门";
-                        return false;
-                    }
+                    //UserInfo userInfo = _dbContext.StaffInfo.FirstOrDefault(u => u.Id == userId);
+                    //if (userInfo == null || string.IsNullOrWhiteSpace(userInfo.DepartmentId))
+                    //{
+                    //    transaction.Rollback();
+                    //    msg = "当前用户没有部门";
+                    //    return false;
+                    //}
 
-                    DepartmentInfo departmentInfo = _dbContext.DepartmentInfo.FirstOrDefault(u => u.Id == userInfo.DepartmentId);
-                    if (departmentInfo == null || string.IsNullOrWhiteSpace(departmentInfo.LeaderId))
-                    {
-                        transaction.Rollback();
-                        msg = "当前部门未设置领导";
-                        return false;
-                    }
+                    //DepartmentInfo departmentInfo = _dbContext.DepartmentInfo.FirstOrDefault(u => u.Id == userInfo.DepartmentId);
+                    //if (departmentInfo == null || string.IsNullOrWhiteSpace(departmentInfo.LeaderId))
+                    //{
+                    //    transaction.Rollback();
+                    //    msg = "当前部门未设置领导";
+                    //    return false;
+                    //}
 
-                    int count = (from ur in _dbContext.R_UserInfo_RoleInfo.Where(x => x.UserId == departmentInfo.LeaderId)
-                                 join r in _dbContext.RoleInfo.Where(x => x.RoleName == "部门经理")
-                                 on ur.RoleId equals r.Id
-                                 select r.RoleName).Count();
+                    //int count = (from ur in _dbContext.R_UserInfo_RoleInfo.Where(x => x.UserId == departmentInfo.LeaderId)
+                    //             join r in _dbContext.RoleInfo.Where(x => x.RoleName == "部门经理")
+                    //             on ur.RoleId equals r.Id
+                    //             select r.RoleName).Count();
 
-                    if (count <= 0)
-                    {
-                        transaction.Rollback();
-                        msg = "当前领导不是部门经理这个角色";
-                        return false;
-                    }
+                    //if (count <= 0)
+                    //{
+                    //    transaction.Rollback();
+                    //    msg = "当前领导不是部门经理这个角色";
+                    //    return false;
+                    //}
 
                     WorkFlow_InstanceStep workFlow_InstanceStep = new WorkFlow_InstanceStep();
                     workFlow_InstanceStep.Id = Guid.NewGuid().ToString();
                     workFlow_InstanceStep.CreateTime = DateTime.Now;
                     workFlow_InstanceStep.InstanceId = workFlow_Instance.Id;
-                    workFlow_InstanceStep.ReviewerId = departmentInfo.LeaderId;
+                    //workFlow_InstanceStep.ReviewerId = departmentInfo.LeaderId;
                     workFlow_InstanceStep.ReviewTime = DateTime.Now;
                     workFlow_InstanceStep.ReviewStatus = (int)WorkFlow_InstanceStepStatusEnum.审核中;
 
@@ -149,7 +149,7 @@ namespace BLL
                        on w.ModelId equals m.Id
                        into tempwm
                        from wm in tempwm
-                       join u in _dbContext.UserInfo.Where(u => u.IsDeleted == false)
+                       join u in _dbContext.StaffInfo.Where(u => u.IsDeleted == false)
                        on w.Creator equals u.Id
                        into tempwu
                        from wu in tempwu
@@ -165,7 +165,7 @@ namespace BLL
                            Reason = w.Reason,
                            Creator = w.Creator,
                            ConsumableName = wc.ConsumableName,
-                           UserName = wu.UserName,
+                           UserName = wu.StaffName,
                            OutNum = w.OutNum,
                            Status = w.Status,
                            OutGoodsId = w.OutGoodsId,

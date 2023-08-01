@@ -8,3 +8,17 @@ C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BL
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\common.dll
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IBLL.dll
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IDAL.dll
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\Models.dll
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\common.pdb
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IBLL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IDAL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\code\实训项目\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+D:\code\实训项目\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+D:\code\实训项目\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

@@ -8,6 +8,6 @@ namespace IDAL
 {
     public interface ICustomerInfoDAL:IBaseDeleteDAL<CustomerInfo>
     {
-        DbSet<CustomerInfo> GetCustomerInfoAll();
+        DbSet<CustomerInfo> GetCustomerInfo();
     }
 }
