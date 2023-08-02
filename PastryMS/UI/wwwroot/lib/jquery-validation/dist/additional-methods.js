@@ -945,7 +945,7 @@ $.validator.addMethod( "postcodeUK", function( value, element ) {
  *	<input class="productinfo" name="partnumber">
  *	<input class="productinfo" name="description">
  *
- *	...will validate unless at least one of them is filled.
+ *	~.will validate unless at least one of them is filled.
  *
  * partnumber:	{require_from_group: [1,".productinfo"]},
  * description: {require_from_group: [1,".productinfo"]}
@@ -985,7 +985,7 @@ $.validator.addMethod( "require_from_group", function( value, element, options )
  *	<input class="productinfo" name="description">
  *	<input class="productinfo" name="color">
  *
- *	...will validate unless either at least two of them are filled,
+ *	~.will validate unless either at least two of them are filled,
  *	OR none of them are.
  *
  * partnumber:	{skip_or_fill_minimum: [2,".productinfo"]},

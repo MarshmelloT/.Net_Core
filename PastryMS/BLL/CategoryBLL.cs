@@ -1,7 +1,5 @@
 ﻿using IBLL;
 using IDAL;
-using Model;
-using Model.DTO;
 using Models;
 using System;
 using System.Collections.Generic;

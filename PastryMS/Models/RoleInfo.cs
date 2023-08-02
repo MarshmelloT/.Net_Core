@@ -10,7 +10,7 @@ namespace Models
     /// <summary>
     /// 角色表
     /// </summary>
-    public class RoleInfo:BaseDelEntity
+    public class RoleInfo : BaseDelEntity
     {
         /// <summary>
         /// 角色名

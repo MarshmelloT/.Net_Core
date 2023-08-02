@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="~/layuimini/lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="~/layuimini/css/public.css" media="all">
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="layui-form layuimini-form">
+
+
+        <div class="layui-form-item">
+            <label class="layui-form-label required">工作流模板</label>
+            <div class="layui-input-block">
+                <select lay-filter="demo-select-filter" name="modelId" id="modelSelect" lay-verify="required">
+                    <Option value="0">请选择</Option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label required">出库物资</label>
+            <div class="layui-input-block">
+                <select lay-filter="select-filter" name="outGoodsId" id="outGoodsSelect" lay-verify="required">
+                    <Option value="0">请选择</Option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label required">出库数量</label>
+            <div class="layui-input-block">
+                <input type="text" name="outNum" lay-verify="required" lay-reqtext="部门名称不能为空" placeholder="请输部门名称" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label required">申请理由</label>
+            <div class="layui-input-block">
+                <input type="text" name="reason" lay-verify="required" lay-reqtext="部门名称不能为空" placeholder="请输部门名称" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label ">描述</label>
+            <div class="layui-input-block">
+                <input type="text" name="description" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">确认保存</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/layuimini/lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+    <script>
+        var table;
+        layui.use(['form'], function () {
+            var form = layui.form,
+                layer = layui.layer,
+                $ = layui.$;
+
+            //监听提交
+            form.on('submit(saveBtn)', function (data) {
+                console.log(data.field)
+                $.ajax({
+                    url: "/Admin/WorkFlow_Instance/CreateWorkFlow_Instance",
+                    type: "Post",
+                    data: JSON.stringify(data.field),
+                    dataType: "json",
+                    contentType: "application/json",
+                    success: function (res) {
+                        if (res.code == 200) {
+                            var index = layer.alert(res.msg, {
+                                title: '添加结果'
+                            }, function () {
+                                // 关闭弹出层
+                                layer.close(index);
+                                var iframeIndex = parent.layer.getFrameIndex(window.name);
+                                parent.location.reload();
+                                parent.layer.close(iframeIndex);
+                            });
+
+                        } else {
+                            layer.alert(res.msg);
+                        }
+                    }
+                })
+                return false;
+            });
+
+            $.ajax({
+                url: "/Admin/WorkFlow_Instance/GetSelectOptions",
+                type: "Get",
+                success: function (res) {
+                    var modelSelect = res.data.modelSelect;
+                    for (var i = 0; i < modelSelect.length; i++) {
+                        $('#modelSelect').append('<Option value="' + modelSelect[i].value + '">' + modelSelect[i].title + '</Option>');
+                    }
+                    var outGoodsSelect = res.data.outGoodsSelect;
+                    for (var i = 0; i < outGoodsSelect.length; i++) {
+                        $('#outGoodsSelect').append('<Option value="' + outGoodsSelect[i].value + '">' + outGoodsSelect[i].title + '</Option>');
+                    }
+                    form.render('select');
+
+                }
+            })
+
+
+
+        });
+
+    </script>
+</body>
+</html>
+
