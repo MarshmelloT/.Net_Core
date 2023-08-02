@@ -142,9 +142,9 @@
                 miniTongji = layui.miniTongji;
 
             var options = {
-                //iniUrl:"~/wwwwroot/layuimini/api/init.json",
+                //iniUrl:"../wwwwroot/layuimini/api/init.json",
 				iniUrl: "/Admin/MenuInfo/GetMenus",    // 初始化接口
-                clearUrl: "~/wwwwroot/layuimini/api/clear.json", // 缓存清理接口
+                clearUrl: "../wwwwroot/layuimini/api/clear.json", // 缓存清理接口
                 urlHashLocation: true,      // 是否打开hash定位
                 bgColorDefault: false,      // 主题默认配置
                 multiModule: true,          // 是否开启多模块
@@ -167,7 +167,7 @@
 
             $('.login-out').on("click", function () {
                 layer.msg('退出登录成功', function () {
-                    //window.location = '~/layuimini/page/login-1.html';
+                    //window.location = '../layuimini/page/login-1.html';
                     delCookie();
                     window.location = '/Admin/Account/LoginView';
                 });

@@ -108,15 +108,9 @@ namespace UI
             app.UseSession();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapAreaControllerRoute(
-                     name: "Admin",
-                     areaName: "Admin",
+                endpoints.MapControllerRoute(
+                   name: "Admin",
                    pattern: "{area:exists}/{controller=Account}/{action=LoginView}/{id?}");
-                   
-
-                //endpoints.MapControllerRoute(
-                //   name: "Admin",
-                //   pattern: "{area:exists}/{controller=Account}/{action=LoginView}/{id?}");
 
                 endpoints.MapControllerRoute(
                     name: "default",

@@ -18,3 +18,13 @@ D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.As
 D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
 D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
 D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
+F:\NET实训课\Git\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.deps.json
+F:\NET实训课\Git\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.dll
+F:\NET实训课\Git\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.pdb
+F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.AssemblyReference.cache
+F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.GeneratedMSBuildEditorConfig.editorconfig
+F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfoInputs.cache
+F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfo.cs
+F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
+F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
+F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb

@@ -1,16 +1,14 @@
 ﻿using common;
 using Microsoft.AspNetCore.Mvc;
+using Models.DTO;
 using System.Collections.Generic;
 using BLL;
 using IBLL;
 using Models;
-using UI.Filters;
 
 namespace UI.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [MyFilters]
-
     public class CustomerInfoController : Controller
     {
         private PastryMSDB _dbContext;

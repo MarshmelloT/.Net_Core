@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>table下拉选择器</title>
-    <link rel="stylesheet" href="~/lib/layui-v2.6.3/css/layui.css" media="all">
-    <link rel="stylesheet" href="~/css/public.css" media="all">
+    <link rel="stylesheet" href="../lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="../css/public.css" media="all">
 </head>
 <body>
 <div class="layuimini-container">
@@ -58,7 +58,7 @@
                 },
                 done: function (elem, data) {
                 //选择完后的回调，包含2个返回值 elem:返回之前input对象；data:表格返回的选中的数据 []
-                //拿到data[]后 就按照业务需求做想做的事情啦~比如加个隐藏域放ID~.
+                //拿到data[]后 就按照业务需求做想做的事情啦~比如加个隐藏域放ID...
                 }
             })
 
@@ -75,7 +75,7 @@
                     {searchKey: 'sex', searchPlaceholder: '搜索用户性别'},  //搜索条件2
                 ],
                 table: {
-                    url: '~/api/tableSelect.json',
+                    url: '../api/tableSelect.json',
                     cols: [[
                         { type: 'radio' },
                         { field: 'id', title: 'ID' },
@@ -85,7 +85,7 @@
                 },
                 done: function (elem, data) {
                 //选择完后的回调，包含2个返回值 elem:返回之前input对象；data:表格返回的选中的数据 []
-                //拿到data[]后 就按照业务需求做想做的事情啦~比如加个隐藏域放ID~.
+                //拿到data[]后 就按照业务需求做想做的事情啦~比如加个隐藏域放ID...
                 }
             })
         </pre>
@@ -93,8 +93,8 @@
     </div>
 </div>
 
-<script src="~/lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
-<script src="~/js/lay-config.js?v=1.0.4" charset="utf-8"></script>
+<script src="../lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+<script src="../js/lay-config.js?v=1.0.4" charset="utf-8"></script>
 <script>
     layui.use(['table', 'form', 'tableSelect'], function () {
         var $ = layui.jquery,
@@ -108,7 +108,7 @@
             checkedKey: 'id',
             searchPlaceholder: '自定义文字和name',
             table: {
-                url: '~/api/tableSelect.json',
+                url: '../api/tableSelect.json',
                 cols: [[
                     { type: 'checkbox' },
                     { field: 'id', title: 'ID', width: 100 },
@@ -130,7 +130,7 @@
             elem: '#demo2',
             checkedKey: 'id',
             table: {
-                url: '~/api/tableSelect.json',
+                url: '../api/tableSelect.json',
                 cols: [[
                     { type: 'radio' },
                     { field: 'id', title: 'ID' },
@@ -159,7 +159,7 @@
                 {searchKey: 'sex', searchPlaceholder: '搜索用户性别'},
             ],
             table: {
-                url: '~/api/tableSelect.json',
+                url: '../api/tableSelect.json',
                 cols: [[
                     { type: 'radio' },
                     { field: 'id', title: 'ID' },

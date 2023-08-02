@@ -2,6 +2,7 @@
 using IBLL;
 using IDAL;
 using Models;
+using Models.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,20 +49,6 @@ namespace BLL
             var list = data.OrderByDescending(c => c.CreateTime).Skip(limit * (page - 1)).Take(limit).ToList();
 
             return list;
-        }
-
-        public List<GetCustomerInfoDTO> getCustomerInfoDTOs()
-        {
-            List<GetCustomerInfoDTO> userlist = _ICustomerInfoDAL.GetEntities()
-                                                       .Where(x => x.IsDeleted == false)
-                                                       .Select(x => new GetCustomerInfoDTO
-                                                       {
-                                                           Id = x.Id,
-                                                           CustomerName = x.CustomerName,
-                                                       })
-                                                       .ToList();
-
-            return userlist;
         }
 
         public bool Login(string account, string pwd, out string msg, out string customerName, out string customerid)

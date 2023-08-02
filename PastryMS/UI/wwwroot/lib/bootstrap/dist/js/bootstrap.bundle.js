@@ -1702,7 +1702,7 @@
     }
 
     // .offsetParent will return the closest TH, TD or TABLE in case
-    // no offsetParent is present, I hate this job~.
+    // no offsetParent is present, I hate this job...
     if (['TH', 'TD', 'TABLE'].indexOf(offsetParent.nodeName) !== -1 && getStyleComputedProperty(offsetParent, 'position') === 'static') {
       return getOffsetParent(offsetParent);
     }
@@ -1937,7 +1937,7 @@
     var rect = {};
 
     // IE10 10 FIX: Please, don't ask, the element isn't
-    // considered in DOM in some circumstances~.
+    // considered in DOM in some circumstances...
     // This isn't reproducible in IE10 compatibility mode of IE11
     try {
       if (isIE(10)) {
