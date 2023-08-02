@@ -28,6 +28,7 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< Updated upstream
               "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj"
               },
@@ -37,6 +38,14 @@
               "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
               },
+=======
+              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
+              },
+              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+              },
+>>>>>>> Stashed changes
               "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj"
               }
