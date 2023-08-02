@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
+    "C:\\Users\\27916\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "projectUniqueName": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\common\\common.csproj",
       "projectName": "common",
-      "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
-      "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\",
+      "projectPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "packagesPath": "C:\\Users\\27916\\.nuget\\packages\\",
+      "outputPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\27916\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -61,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
       }
     }
   }
