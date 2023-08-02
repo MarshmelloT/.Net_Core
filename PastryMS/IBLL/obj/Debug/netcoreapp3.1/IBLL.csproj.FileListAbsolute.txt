@@ -24,3 +24,16 @@ D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.pdb
 D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
 D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
 D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.dll
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.pdb
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.AssemblyReference.cache
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.GeneratedMSBuildEditorConfig.editorconfig
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfoInputs.cache
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfo.cs
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CoreCompileInputs.cache
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
+F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
