@@ -22,3 +22,17 @@ D:\code\实训项目\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\Models.pdb
 D:\code\实训项目\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
 D:\code\实训项目\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.dll
 D:\code\实训项目\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\common.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IBLL.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IDAL.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\common.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IBLL.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\IDAL.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\obj\Debug\netcoreapp3.1\BLL.pdb
