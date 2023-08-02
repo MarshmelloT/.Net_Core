@@ -135,3 +135,5 @@ D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.dll
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.pdb
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.genruntimeconfig.cache
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CustomerInfo\ListView.cshtml.g.cs
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CustomerInfo\CreateCustomerInfoView.cshtml.g.cs
+D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\CustomerInfo\UpdateCustomerInfoView.cshtml.g.cs

@@ -12,5 +12,10 @@ namespace IBLL
         List<GetCustomerInfoDTO> getCustomerInfo(int page, int limit, string account, string customerName, out int count);
 
         List<GetCustomerInfoDTO> getCustomerInfoDTOs();
+        bool CreateCustomerInfo(CustomerInfo entity, out string msg);
+        bool UpdateCustomerInfo(CustomerInfo customerInfo, out string msg);
+        bool DeleteCustomerInfo(string id);
+        bool DeleteCustomerInfos(List<string> ids);
+
     }
 }

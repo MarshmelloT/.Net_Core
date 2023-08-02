@@ -53,7 +53,13 @@
                 <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">编辑</a>
                 <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">删除</a>
             </script>
-
+            <script type="text/html" id="sex">
+                {{# if(d.sex==0){}}
+                <a style="pointer-events:none;">男</a>
+                {{# }else if(d.sex==1){ }}
+                <a style="pointer-events:none;">女</a>
+                {{# } }}
+            </script>
         </div>
     </div>
 
@@ -79,7 +85,7 @@
                     { field: 'id', title: 'ID', sort: true, hide: true },
                     { field: 'account', title: '客户账号' },
                     { field: 'customerName', title: '客户名称' },
-                    { field: 'sex', title: '性别' },
+                    { field: 'sex', title: '性别', templet: "#sex" },
                     { field: 'age', title: '年龄' },
                     { field: 'description', title: '描述', sort: true },
                     { field: 'createTime', title: '添加时间' },
@@ -105,7 +111,7 @@
                     }
                     , where: {
                         /*searchParams: result*/
-                        account: data.field.account
+                        account: data.field.account,
                         customerName: data.field.customerName
                     }
                 }, 'data');
@@ -125,7 +131,7 @@
                         maxmin: true,
                         shadeClose: true,
                         area: ['80%', '80%'],
-                        content: '/Admin/RoleInfo/CreateRoleInfosView',
+                        content: '/Admin/CustomerInfo/CreateCustomerInfoView',
                     });
                     $(window).on("resize", function () {
                         layer.full(index);
@@ -143,7 +149,7 @@
                     }
 
                     $.ajax({
-                        url: "/Admin/RoleInfo/DeleteRoleInfos",
+                        url: "/Admin/CustomerInfo/DeleteCustomerInfos",
                         type: "Post",
                         data: {
                             ids: ids
@@ -180,7 +186,7 @@
                         maxmin: true,
                         shadeClose: true,
                         area: ['80%', '80%'],
-                        content: '/Admin/RoleInfo/UpdateRoleInfosView?id=' + data.id,
+                        content: '/Admin/CustomerInfo/UpdateCustomerInfoView?id=' + data.id,
                         success: function (layero, index) {
                             var iframe = window['layui-layer-iframe' + index];
                             iframe.getData(data)
@@ -191,38 +197,10 @@
                     });
                     return false;
                 }
-                else if (obj.event === 'TransferUser') {  // 监听删除操作
-                    var index = layer.open({
-                        title: '绑定用户',
-                        type: 2,
-                        shade: 0.2,
-                        maxmin: true,
-                        shadeClose: true,
-                        area: ['50%', '80%'],
-                        content: '/Admin/RoleInfo/RoleInfoTransferView?id=' + data.id,
-                    });
-                    $(window).on("resize", function () {
-                        layer.full(index);
-                    });
-                }
-                else if (obj.event === 'TransferMenu') {  // 监听删除操作
-                    var index = layer.open({
-                        title: '绑定菜单',
-                        type: 2,
-                        shade: 0.2,
-                        maxmin: true,
-                        shadeClose: true,
-                        area: ['50%', '80%'],
-                        content: '/Admin/RoleInfo/MenuInfoTransferView?id=' + data.id,
-                    });
-                    $(window).on("resize", function () {
-                        layer.full(index);
-                    });
-                }
                 else if (obj.event === 'delete') {
                     layer.confirm('真的删除么', function (index) {
                         $.ajax({
-                            url: "/Admin/RoleInfo/DeleteRoleInfo",
+                            url: "/Admin/CustomerInfo/DeleteCustomerInfo",
                             type: "Post",
                             data: {
                                 id: data.id

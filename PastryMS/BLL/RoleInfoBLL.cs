@@ -22,6 +22,9 @@ namespace BLL
             , IRoleInfoDAL RoleInfoDAL
             , IR_UserInfo_RoleInfoDAL r_UserInfo_RoleInfoDAL
             , IR_RoleInfo_MenuInfoDAL r_RoleInfo_MenuInfoDAL
+
+
+
             )
         {
             _dbContext = dbContext;

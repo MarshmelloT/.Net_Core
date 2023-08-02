@@ -105,7 +105,7 @@ namespace UI.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateMenuInfo([FromBody] MenuInfo menuInfo)
+        public IActionResult CreateMenuInfo([FromForm] MenuInfo menuInfo)
         {
             string msg;
 

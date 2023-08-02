@@ -60,7 +60,7 @@ namespace UI.Controllers
             return Json(result);
         }
         [HttpPost]
-        public IActionResult CreateConsumableInfo([FromBody] ConsumableInfo consumableInfo)
+        public IActionResult CreateConsumableInfo([FromForm] ConsumableInfo consumableInfo)
         {
             string msg;
             bool isok = _consumableInfoBLL.CreateConsumableInfo(consumableInfo, out msg);

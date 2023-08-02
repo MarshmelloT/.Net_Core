@@ -2,8 +2,8 @@
 using IBLL;
 using IDAL;
 using Microsoft.AspNetCore.Mvc;
+using Model;
 using Models;
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,25 +12,25 @@ using UI.Filters;
 
 namespace UI.Controllers
 {
-    [Area("Admin")]
     [MyFilters]
-    
+    [Area("Admin")]
 
     public class RoleInfoController : Controller
     {
         private IRoleInfoBLL _RoleInfoBLL;
-        //private IMenuInfoBLL _menuInfoBLL;
-        private ICustomerInfoBLL _customerInfoBLL;
+        private ICustomerInfoBLL _CustomerInfoBLL;
+        private IMenuInfoBLL _menuInfoBLL;
 
         public RoleInfoController(
             IRoleInfoBLL RoleInfoBLL
-            //,IMenuInfoBLL menuInfoBLL
-            ,ICustomerInfoBLL customerInfoBLL
+            , ICustomerInfoBLL CustomerInfoBLL
+            , IMenuInfoBLL menuInfoBLL
+
             )
         {
             _RoleInfoBLL = RoleInfoBLL;
-            //_menuInfoBLL = menuInfoBLL;
-            _customerInfoBLL = customerInfoBLL;
+            _menuInfoBLL = menuInfoBLL;
+            _CustomerInfoBLL = CustomerInfoBLL;
         }
         // GET: RoleInfo
 
@@ -167,7 +167,7 @@ namespace UI.Controllers
                 return Json(result);
             }
 
-            List<GetCustomerInfoDTO> options = _customerInfoBLL.getCustomerInfoDTOs();
+            List<GetCustomerInfoDTO> options = _CustomerInfoBLL.getCustomerInfoDTOs();
 
             List<string> userIds = _RoleInfoBLL.GetBindUserIds(roleId);
 
@@ -187,14 +187,14 @@ namespace UI.Controllers
         {
             ReturnResult result = new ReturnResult();
 
-            if(string.IsNullOrWhiteSpace(roleId))
+            if (string.IsNullOrWhiteSpace(roleId))
             {
                 result.Msg = "角色id不能为空";
                 return Json(result);
             }
 
-            result.IsSuccess = _RoleInfoBLL.BindUserInfo(userIds,roleId);
-            result.Code=200;
+            result.IsSuccess = _RoleInfoBLL.BindUserInfo(userIds, roleId);
+            result.Code = 200;
             result.Msg = "绑定成功";
 
             return Json(result);
@@ -206,28 +206,28 @@ namespace UI.Controllers
         public IActionResult GetBindMenuIdOptions(string roleId)
         {
             ReturnResult result = new ReturnResult();
-            //if (string.IsNullOrWhiteSpace(roleId))
-            //{
-            //    result.Msg = "id不能为空";
-            //    return Json(result);
-            //}
+            if (string.IsNullOrWhiteSpace(roleId))
+            {
+                result.Msg = "id不能为空";
+                return Json(result);
+            }
 
-            //List<GetMenuInfoDTO> options=_menuInfoBLL.GetMenuInfos();
+            List<GetMenuInfoDTO> options = _menuInfoBLL.GetMenuInfos();
 
-            //List<string> mid=_RoleInfoBLL.GetBindMenuids(roleId);
+            List<string> mid = _RoleInfoBLL.GetBindMenuids(roleId);
 
-            //result.Data = new
-            //{
-            //    options,
-            //    mid
-            //};
+            result.Data = new
+            {
+                options,
+                mid
+            };
 
-            //result.Code = 200;
-            //result.Msg = "获取成功";
-            //result.IsSuccess = true;
+            result.Code = 200;
+            result.Msg = "获取成功";
+            result.IsSuccess = true;
 
             return Json(result);
-         }
+        }
 
         [HttpPost]
         public IActionResult BindMenuInfo(List<string> mids, string roleId)

@@ -84,8 +84,7 @@
                 $.ajax({
                     url: "/Admin/MenuInfo/CreateMenuInfo",
                     type: "Post",
-                    data: JSON.stringify(data.field),
-                    contentType: "application/json",
+                    data: data.field,
                     success: function (res) {
                         if (res.code == 200) {
                             var index = layer.alert(res.msg, {
