@@ -70,34 +70,34 @@ namespace BLL
         /// <param name="entity"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        public bool CreateOrdersInfo(OrdersInfo entity, out string msg)
-        {
-            //判断非空
-            if (string.IsNullOrWhiteSpace(entity.CustomerId))
-            {
-                msg = "客户编号不能为空";
-                return false;
-            }
+        //public bool CreateOrdersInfo(OrdersInfo entity, out string msg)
+        //{
+        //    //判断非空
+        //    if (string.IsNullOrWhiteSpace(entity.CustomerId))
+        //    {
+        //        msg = "客户编号不能为空";
+        //        return false;
+        //    }
 
-            //赋值id和时间
-            entity.Id = Guid.NewGuid().ToString();
-            entity.CreateTime = DateTime.Now;
+        //    //赋值id和时间
+        //    entity.Id = Guid.NewGuid().ToString();
+        //    entity.CreateTime = DateTime.Now;
 
-            //更新到数据库
-            bool isSuccess = _ordersInfoDAL.CreateEntity(entity);
+        //    //更新到数据库
+        //    bool isSuccess = _ordersInfoDAL.CreateEntity(entity);
 
-            //判断是否成功
-            if (isSuccess)
-            {
-                msg = "添加成功!";
-                return true;
-            }
-            else
-            {
-                msg = "添加失败!";
-            }
-            return isSuccess;
-        }
+        //    //判断是否成功
+        //    if (isSuccess)
+        //    {
+        //        msg = "添加成功!";
+        //        return true;
+        //    }
+        //    else
+        //    {
+        //        msg = "添加失败!";
+        //    }
+        //    return isSuccess;
+        //}
         #endregion
 
         #region 软删除的方法(DeleteOrdersInfo)
@@ -153,45 +153,45 @@ namespace BLL
         /// <param name="ordersInfo"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        public bool UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
-        {
-            //非空判断
-            //判断这个id是否存在用户
-            OrdersInfo entity = _ordersInfoDAL.GetEntityById(ordersInfo.Id);
-            if (entity == null)
-            {
-                msg = "客户id无效";
-                return false;
-            }
+        //public bool UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
+        //{
+        //    //非空判断
+        //    //判断这个id是否存在用户
+        //    OrdersInfo entity = _ordersInfoDAL.GetEntityById(ordersInfo.Id);
+        //    if (entity == null)
+        //    {
+        //        msg = "客户id无效";
+        //        return false;
+        //    }
 
-            if (entity.CustomerId != ordersInfo.CustomerId)
-            {
-                //通过账号查询数据库是否存在相同的账号
-                OrdersInfo oldUser = _ordersInfoDAL.GetEntities().FirstOrDefault(u => u.CustomerId == ordersInfo.CustomerId);
-                if (oldUser != null)
-                {
-                    msg = "客户已存在";
-                    return false;
-                }
-            }
+        //    if (entity.CustomerId != ordersInfo.CustomerId)
+        //    {
+        //        //通过账号查询数据库是否存在相同的账号
+        //        OrdersInfo oldUser = _ordersInfoDAL.GetEntities().FirstOrDefault(u => u.CustomerId == ordersInfo.CustomerId);
+        //        if (oldUser != null)
+        //        {
+        //            msg = "客户已存在";
+        //            return false;
+        //        }
+        //    }
 
-            if (string.IsNullOrWhiteSpace(ordersInfo.CustomerId))
-            {
-                msg = "客户姓名不能为空";
-                return false;
-            }
+        //    if (string.IsNullOrWhiteSpace(ordersInfo.CustomerId))
+        //    {
+        //        msg = "客户姓名不能为空";
+        //        return false;
+        //    }
 
-            entity.OrdersDetailld = ordersInfo.OrdersDetailld;
-            entity.CustomerId = ordersInfo.CustomerId;
-            entity.Price = ordersInfo.Price;
-            entity.Description = ordersInfo.Description;
-            entity.CreateTime = DateTime.Now;
+        //    entity.OrdersDetailld = ordersInfo.OrdersDetailld;
+        //    entity.CustomerId = ordersInfo.CustomerId;
+        //    entity.Price = ordersInfo.Price;
+        //    entity.Description = ordersInfo.Description;
+        //    entity.CreateTime = DateTime.Now;
 
-            bool isOk = _ordersInfoDAL.UpdateEntity(entity);
-            msg = isOk ? "修改成功" : "修改失败";
-            //返回结果
-            return isOk;
-        }
+        //    bool isOk = _ordersInfoDAL.UpdateEntity(entity);
+        //    msg = isOk ? "修改成功" : "修改失败";
+        //    //返回结果
+        //    return isOk;
+        //}
         #endregion
     }
 }

@@ -194,6 +194,7 @@ namespace BLL
             entity.Description = customerInfo.Description;
             entity.PhoneNum = customerInfo.PhoneNum;
             entity.Email = customerInfo.Email;
+            entity.Age= customerInfo.Age;
             entity.Pwd = string.IsNullOrWhiteSpace(customerInfo.Pwd) ? entity.Pwd : MD5Help.GenerateMD5(customerInfo.Pwd);
             entity.Sex = customerInfo.Sex;
 

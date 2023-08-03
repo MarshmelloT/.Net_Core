@@ -3,7 +3,6 @@
     ViewBag.Title = "ListView";
 }
 
-@*客户订单信息表OrdersInfo(未修改)*@
 
 <!DOCTYPE html>
 <html>
@@ -67,7 +66,7 @@
             table.render({
                 elem: '#currentTableId',
                 //url: '~/layuimini/api/table.json',
-                url: '/Category/GetCategorys',
+                url: '/OrdersInfo/GetOrdersInfos',
                 toolbar: '#toolbarDemo',
                 defaultToolbar: ['filter', 'exports', 'print', {
                     title: '提示',
@@ -77,8 +76,11 @@
                 cols: [[
                     { type: "checkbox", width: 50 },
                     { field: 'id', title: 'ID', sort: true, hide: true },
-                    { field: 'categoryName',title: '类别名称' },
-                    { field: 'description',title: '描述',},
+                    { field: 'ordersDetailld',title: '订单详情' },
+                    { field: 'customerId',title: '客户编号' },
+                    { field: 'price',title: '消费金额' },
+                    { field: 'description',title: '备注',},
+                    { field: 'createTime',title: '创建时间',},
                     { title: '操作',toolbar: '#currentTableBar', align: "center" }
                 ]],
                 limits: [10, 15, 20, 25, 50, 100],
@@ -115,7 +117,7 @@
             table.on('toolbar(currentTableFilter)', function (obj) {
                 if (obj.event === 'add') {  // 监听添加操作
                     var index = layer.open({
-                        title: '添加耗材类别',
+                        title: '添加',
                         type: 2,
                         shade: 0.2,
                         maxmin: true,

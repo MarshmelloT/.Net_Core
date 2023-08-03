@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = Models
+<<<<<<< HEAD
 build_property.ProjectDir = F:\NET实训课\Git\.Net_Core\PastryMS\Models\
+=======
+build_property.ProjectDir = C:\Users\Administrator\Desktop\.Net_Core\PastryMS\Models\
+>>>>>>> 1b09651c245ea3e3fb3a6b840342021f74230121
