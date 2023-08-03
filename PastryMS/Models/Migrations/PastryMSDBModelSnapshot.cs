@@ -151,8 +151,16 @@ namespace Models.Migrations
                         .HasColumnType("nvarchar(32)")
                         .HasMaxLength(32);
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
+
+                    b.Property<string>("PhoneNum")
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
 
                     b.Property<string>("Pwd")
                         .HasColumnType("nvarchar(32)")

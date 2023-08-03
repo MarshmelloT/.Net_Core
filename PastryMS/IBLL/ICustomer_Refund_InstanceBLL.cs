@@ -26,14 +26,14 @@ namespace IBLL
         /// <param name="entity"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        bool CreateRefund_Instance(Refund_Instance entity, out string msg);
+        bool CreateRefund_Instance(Customer_Refund_Instance entity, out string msg);
         /// <summary>
         /// 修改
         /// </summary>
         /// <param name="category"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        bool UpdateRefund_Instance(Refund_Instance refund_Instance, out string msg);
+        bool UpdateRefund_Instance(Customer_Refund_Instance refund_Instance, out string msg);
         ///// <summary>
         ///// 删除
         ///// </summary>

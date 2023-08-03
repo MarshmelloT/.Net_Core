@@ -51,7 +51,13 @@
                 <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">编辑</a>
                 <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">删除</a>
             </script>
-
+            <script type="text/html" id="Sex">
+                {{# if(d.sex==0){}}
+                <a  style="pointer-events:none;">男</a>
+                {{# }else if(d.sex==1){ }}
+                <a  style="pointer-events:none;">女</a>
+                {{# } }}
+            </script>
         </div>
     </div>
     <script src="~/layuimini/lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
@@ -72,12 +78,14 @@
                     icon: 'layui-icon-tips'
                 }],
                 cols: [[
-                    { type: "checkbox"},
+                    { type: "checkbox" },
                     { field: 'id', title: 'ID', sort: true, hide: true },
                     { field: 'account', title: '账号' },
                     { field: 'customerName', title: '姓名', sort: true },
                     { field: 'age', title: '年龄' },
-                    { field: 'sex', title: '性别' },
+                    { field: 'sex', title: '性别', templet :"Sex"},
+                    { field: 'phoneNum', title: '手机号' },
+                    { field: 'email', title: '邮箱' },
                     { field: 'description', title: '描述' },
                     { field: 'createTime', title: '添加时间' },
                     { title: '操作', toolbar: '#currentTableBar', align: "center" }

@@ -3,6 +3,8 @@ using IBLL;
 using IDAL;
 using Microsoft.AspNetCore.Mvc;
 using Model;
+using Models;
+using Models.DTO;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,19 +19,19 @@ namespace UI.Controllers
     public class RoleInfoController : Controller
     {
         private IRoleInfoBLL _RoleInfoBLL;
-        private IUserInfoBLL _userInfoBLL;
+        private ICustomerInfoBLL _CustomerInfoBLL;
         private IMenuInfoBLL _menuInfoBLL;
 
         public RoleInfoController(
             IRoleInfoBLL RoleInfoBLL
-            , IUserInfoBLL userInfoBLL
             ,IMenuInfoBLL menuInfoBLL
+            ,ICustomerInfoBLL customerInfoBLL
 
             )
         {
             _RoleInfoBLL = RoleInfoBLL;
-            _userInfoBLL = userInfoBLL;
             _menuInfoBLL = menuInfoBLL;
+            _CustomerInfoBLL = customerInfoBLL;
         }
         // GET: RoleInfo
 
@@ -166,7 +168,7 @@ namespace UI.Controllers
                 return Json(result);
             }
 
-            List<GetUserInfosDTO> options = _userInfoBLL.GetUserInfos();
+            List<GetCustomerInfoDTO> options = _CustomerInfoBLL.GetCustomerInfoDTO();
 
             List<string> userIds = _RoleInfoBLL.GetBindUserIds(roleId);
 

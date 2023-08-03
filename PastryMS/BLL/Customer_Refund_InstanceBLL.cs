@@ -12,9 +12,9 @@ namespace BLL
     public class Customer_Refund_InstanceBLL:ICustomer_Refund_InstanceBLL
     {
         private PastryMSDB _dbContext;
-        private IRefund_InstanceDAL _Refund_InstanceDAL;
+        private ICustomer_Refund_InstanceDAL _Refund_InstanceDAL;
 
-        public Refund_InstanceBLL(PastryMSDB dbContext, IRefund_InstanceDAL refund_InstanceDAL)
+        public Customer_Refund_InstanceBLL(PastryMSDB dbContext, ICustomer_Refund_InstanceDAL refund_InstanceDAL)
         {
             _dbContext = dbContext;
             _Refund_InstanceDAL = refund_InstanceDAL;
@@ -31,7 +31,7 @@ namespace BLL
         /// <returns></returns>
        public List<GetRefund_InstanceDTO> GetRefund_Instances(int page, int limit, string modelId, int status, out int count)
         {
-            var data = from c in _dbContext.Refund_Instance.Where(c => c.ModelId == modelId)
+            var data = from c in _dbContext.Customer_Refund_Instance.Where(c => c.ModelId == modelId)
                        select new GetRefund_InstanceDTO
                        {
                            Id = c.Id,
@@ -59,7 +59,7 @@ namespace BLL
         /// <param name="entity"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        public bool CreateRefund_Instance(Refund_Instance entity, out string msg)
+        public bool CreateRefund_Instance(Customer_Refund_Instance entity, out string msg)
         {
             if(string.IsNullOrWhiteSpace(entity.ModelId))
             {
@@ -82,7 +82,7 @@ namespace BLL
                 msg = "出库物资id不能为空";
                 return false;
             }
-            Refund_Instance refund_Instance = _Refund_InstanceDAL.GetEntities().FirstOrDefault(u => u.ModelId == entity.ModelId);
+            Customer_Refund_Instance refund_Instance = _Refund_InstanceDAL.GetEntities().FirstOrDefault(u => u.ModelId == entity.ModelId);
             if (refund_Instance != null)
             {
                 msg = "模板id已存在！";
@@ -104,7 +104,7 @@ namespace BLL
         /// <param name="category"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        public bool UpdateRefund_Instance(Refund_Instance refund_Instance, out string msg)
+        public bool UpdateRefund_Instance(Customer_Refund_Instance refund_Instance, out string msg)
         {
             //非空判断
             if (string.IsNullOrWhiteSpace(refund_Instance.ModelId))
@@ -128,7 +128,7 @@ namespace BLL
                 msg = "出库物资id不能为空";
                 return false;
             }
-            Refund_Instance info = _Refund_InstanceDAL.GetEntities().FirstOrDefault(t=>t.Id==refund_Instance.Id);
+            Customer_Refund_Instance info = _Refund_InstanceDAL.GetEntities().FirstOrDefault(t=>t.Id==refund_Instance.Id);
             if (info == null)
             {
                 msg = "订单流模板不存在！";
