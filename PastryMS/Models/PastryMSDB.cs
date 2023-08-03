@@ -31,14 +31,13 @@ namespace Models
         public virtual DbSet<R_RoleInfo_MenuInfo> R_RoleInfo_MenuInfo { get; set; }
         public virtual DbSet<R_UserInfo_RoleInfo> R_UserInfo_RoleInfo { get; set; }
         public virtual DbSet<RoleInfo> RoleInfo { get; set; }
+        public virtual DbSet<StaffInfo> StaffInfo { get; set; }
         public virtual DbSet<WorkFlow_Instance> WorkFlow_Instance { get; set; }
         public virtual DbSet<WorkFlow_InstanceStep> WorkFlow_InstanceStep { get; set; }
         public virtual DbSet<WorkFlow_Model> WorkFlow_Model { get; set; }
         public virtual DbSet<OrdersInfo> OrdersInfo { get; set; }//客户订单信息表
         public virtual DbSet<Customer_Refund_Instance> Customer_Refund_Instance { get; set; }
         public virtual DbSet<CustomerInfo> CustomerInfo { get; set; }//客户信息表
-        public virtual DbSet<StaffInfo> StaffInfo { get; set; }//客户信息表
-
 
     }
 
