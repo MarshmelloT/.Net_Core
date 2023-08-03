@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="~/layuimini/lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="~/layuimini/css/public.css" media="all">
+    <style>
+        .box {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div id="ShowUser"></div>
+        <br />
+        <a class="layui-btn layui-btn-md layui-btn-normal" id="bindBtn">提交绑定</a>
+    </div>
+
+    <script src="~/layuimini/lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+    <script>
+        layui.use(function () {
+            var transfer = layui.transfer,
+                $ = layui.$;
+
+            var roleId = window.location.search.substr(4);
+
+            $.ajax({
+                url: '/Admin/RoleInfo/GetBindUserIdOptions',
+                type: 'get',
+                data: {
+                    roleId: roleId
+                },
+                success: function (res) {
+                    if (res.code == 200) {
+                        // 渲染
+                        transfer.render({
+                            elem: '#ShowUser',
+                            data: res.data.options,
+                            title: ['未绑定的角色', '已绑定的角色'],
+                            value: res.data.userIds,
+                            showSearch: true,
+                            parseData: function (res) {
+                                return {
+                                    "value": res.id, // 数据值
+                                    "title": res.userName, // 数据标题
+                                }
+                            },
+                            id: "userList"
+                        });
+                    } else {
+                        layer.msg(res.msg);
+                    }
+                }
+            })
+
+            $("#bindBtn").click(function (res) {
+                var getData = transfer.getData('userList'); // 获取右侧数据
+                var userIds = [];
+                for (var i = 0; i < getData.length; i++) {
+                    var userid = getData[i].value;
+                    userIds.push(userid);
+                }
+                $.ajax({
+                    url: '/Admin/RoleInfo/BindUserInfo',
+                    type: 'post',
+                    data: {
+                        userIds: userIds,
+                        roleId: roleId
+                    }, success: function (res) {
+                        layer.msg(res.msg);
+                    }
+                })
+            })
+        });
+    </script>
+
+</body>
+</html>

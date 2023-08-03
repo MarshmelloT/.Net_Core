@@ -7,6 +7,7 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Views\" />
+    <Folder Include="新文件夹\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,7 +24,6 @@
     <ProjectReference Include="..\BLL\BLL.csproj" />
     <ProjectReference Include="..\common\common.csproj" />
     <ProjectReference Include="..\DAL\DAL.csproj" />
-    <ProjectReference Include="..\IBLL\IBLL.csproj" />
     <ProjectReference Include="..\IDAL\IDAL.csproj" />
   </ItemGroup>
 

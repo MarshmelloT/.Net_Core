@@ -5870,25 +5870,24 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Castle.Windsor >= 6.0.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\obj\\",
+      "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
+      "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5918,10 +5917,6 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[3.1.0, )"
-          },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[3.1.0, )"
@@ -5947,7 +5942,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
