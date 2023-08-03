@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {}
   },
   "projects": {
@@ -12,13 +13,30 @@
         "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
         "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\",
+=======
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {}
+  },
+  "projects": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
+        "projectName": "common",
+        "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
+        "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
+        "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\",
+>>>>>>> f5efc161fdf56bb5ccbc350954a7bcde06a02c7c
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\vsss\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> f5efc161fdf56bb5ccbc350954a7bcde06a02c7c
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,7 +77,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+>>>>>>> f5efc161fdf56bb5ccbc350954a7bcde06a02c7c
         }
       }
     }
