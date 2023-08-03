@@ -28,6 +28,8 @@ namespace BLL
                            Id = c.Id,
                            Account = c.Account,
                            CustomerName = c.CustomerName,
+                           PhoneNum = c.PhoneNum,
+                           Email = c.Email,
                            Pwd = c.Pwd,
                            Sex = c.Sex,
                            Age = c.Age,
@@ -150,6 +152,9 @@ namespace BLL
             return true;
         }
 
+
+        #endregion
+
         public bool UpdateCustomerInfo(CustomerInfo customerInfo, out string msg)
         {
             if (string.IsNullOrWhiteSpace(customerInfo.Id))
@@ -187,6 +192,8 @@ namespace BLL
             entity.CustomerName = customerInfo.CustomerName;
             //用户的密码,如果传进来的是null或""字符串就使用原来的密码.否则就拿新密码MD5加密使用新密码
             entity.Description = customerInfo.Description;
+            entity.PhoneNum = customerInfo.PhoneNum;
+            entity.Email = customerInfo.Email;
             entity.Pwd = string.IsNullOrWhiteSpace(customerInfo.Pwd) ? entity.Pwd : MD5Help.GenerateMD5(customerInfo.Pwd);
             entity.Sex = customerInfo.Sex;
 
@@ -194,6 +201,19 @@ namespace BLL
             msg = isOK ? "修改用户成功" : "修改用户失败";
             return isOK;
         }
-        #endregion
+
+        public List<GetCustomerInfoDTO> GetCustomerInfoDTO()
+        {
+            List<GetCustomerInfoDTO> userlist = _ICustomerInfoDAL.GetEntities()
+                                                      .Where(x => x.IsDeleted == false)
+                                                      .Select(x => new GetCustomerInfoDTO
+                                                      {
+                                                          Id = x.Id,
+                                                          CustomerName = x.CustomerName,
+                                                      })
+                                                      .ToList();
+
+            return userlist;
+        }
     }
 }

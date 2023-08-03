@@ -30,5 +30,9 @@ namespace Models.DTO
         /// </summary>
         public string Description { get; set; }
         public DateTime  CreateTime { get; set; }
+        public string  PhoneNum { get; set; }
+        public string  Email { get; set; }
+
+
     }
 }

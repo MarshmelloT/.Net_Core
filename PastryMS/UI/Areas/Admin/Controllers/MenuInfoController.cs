@@ -3,6 +3,7 @@ using common;
 using IBLL;
 using Microsoft.AspNetCore.Mvc;
 using Model;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -104,7 +105,7 @@ namespace Demo.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult CreateMenuInfo([FromBody] MenuInfo menuInfo)
+        public IActionResult CreateMenuInfo([FromForm] MenuInfo menuInfo)
         {
             string msg;
 
@@ -168,7 +169,7 @@ namespace Demo.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult UpdateMenuInfo([FromBody] MenuInfo menuInfo)
+        public IActionResult UpdateMenuInfo([FromForm] MenuInfo menuInfo)
         {
             ReturnResult result = new ReturnResult();
 

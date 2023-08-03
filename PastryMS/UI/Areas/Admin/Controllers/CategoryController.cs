@@ -4,6 +4,7 @@ using IDAL;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using Model.DTO;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,10 +18,10 @@ namespace UI.Areas.Admin.Controllers
 
     public class CategoryController : Controller
     {
-        private RepositorySysDB _dbContext;
+        private PastryMSDB _dbContext;
         private ICategoryBLL _categoryBLL;
         public CategoryController(
-            RepositorySysDB dbContext
+            PastryMSDB dbContext
             , ICategoryBLL categoryBLL
             )
         {
@@ -94,7 +95,7 @@ namespace UI.Areas.Admin.Controllers
             return Json(result);
         }
         [HttpPost]
-        public IActionResult CreateCategories([FromBody] Category entity)
+        public IActionResult CreateCategories([FromForm] Category entity)
         {
             string msg;
             bool isok = _categoryBLL.CreateCategories(entity, out msg);
@@ -110,7 +111,7 @@ namespace UI.Areas.Admin.Controllers
 
         }
         [HttpPost]
-        public IActionResult UpdateCategories([FromBody] Category category)
+        public IActionResult UpdateCategories([FromForm] Category category)
         {
             string msg;
             bool isok = _categoryBLL.UpdateCategories(category, out msg);

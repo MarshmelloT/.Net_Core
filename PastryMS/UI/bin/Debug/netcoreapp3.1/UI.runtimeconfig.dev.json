@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\marshmallo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\marshmallo\\.nuget\\packages"
+    ]
+  }
+}

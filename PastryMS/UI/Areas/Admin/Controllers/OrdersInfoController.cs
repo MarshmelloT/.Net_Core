@@ -52,14 +52,14 @@ namespace UI.Areas.Admin.Controllers
             };
 
             //返回结果
-            return Json;
+            return Json(result);
         }
 
         #endregion
 
         #region 添加客户订单信息的方法(CreateOrdersInfo)
         [HttpPost]
-        public ActionResult CreateOrdersInfo(OrdersInfo entity, out string msg)
+        public ActionResult CreateOrdersInfo([FromForm]OrdersInfo entity, out string msg)
         {
             //调用添加角色的方法
             bool IsSuccess = _ordersInfoBLL.CreateOrdersInfo(entity, out msg);
@@ -73,7 +73,7 @@ namespace UI.Areas.Admin.Controllers
             {
                 result.Code = 200;
             }
-            return Json;
+            return Json(result);
         }
 
         #endregion
@@ -88,7 +88,7 @@ namespace UI.Areas.Admin.Controllers
             if (string.IsNullOrWhiteSpace(id))
             {
                 result.Msg = "Id不能为空";
-                return new JsonHelper(result);
+                return Json(result);
             }
             //调用删除的方法
             bool isOk = _ordersInfoBLL.DeleteOrdersInfo(id);
@@ -99,7 +99,7 @@ namespace UI.Areas.Admin.Controllers
                 result.Code = 200;
             }
             //返回结果
-            return Json;
+            return Json(result);
         }
         #endregion
 
@@ -113,7 +113,7 @@ namespace UI.Areas.Admin.Controllers
             if (ids == null || ids.Count == 0)
             {
                 result.Msg = "你还没有选择要删除的客户订单信息";
-                return new JsonHelper(result);
+                return Json(result);
             }
             //调用批量删除方法
             bool isOk = _ordersInfoBLL.DeleteOrdersInfos(ids);
@@ -127,13 +127,13 @@ namespace UI.Areas.Admin.Controllers
             //{
             //    result.Msg = "删除失败";
             //}
-            return new JsonHelper(result);
+            return Json(result);
         }
         #endregion
 
         #region 更新的方法
         [HttpPost]
-        public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
+        public ActionResult UpdateOrdersInfo([FromForm]OrdersInfo ordersInfo, out string msg)
         {
             //实例化返回对象
             ReturnResult result = new ReturnResult();
@@ -146,7 +146,7 @@ namespace UI.Areas.Admin.Controllers
                 result.Code = 200;
                 result.IsSuccess = isOk;
             }
-            return new JsonHelper(result);//返回结果
+            return Json(result); ;//返回结果
         }
         #endregion
     }
