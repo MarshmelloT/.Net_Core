@@ -11,7 +11,7 @@ using System.Linq;
 using System.Web;
 using UI.Filters;
 
-namespace UI.Controllers
+namespace UI.Areas.APP.Controllers
 {
     [MyFilters]
     [Area("Admin")]

@@ -6,7 +6,7 @@ using BLL;
 using IBLL;
 using Models;
 
-namespace UI.Areas.Admin.Controllers
+namespace UI.Areas.APP.Controllers
 {
     [Area("Admin")]
     public class CustomerInfoController : Controller

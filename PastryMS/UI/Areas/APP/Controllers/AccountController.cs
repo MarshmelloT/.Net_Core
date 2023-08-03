@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using Castle.Core.Resource;
 
-namespace UI.Areas.Admin.Controllers
+namespace UI.Areas.APP.Controllers
 {
     [Area("Admin")]
     public class AccountController : Controller

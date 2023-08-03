@@ -40,14 +40,18 @@ namespace BLL
         public List<GetOrdersInfosDTO> GetOrdersInfos(int page, int limit, string Id, string CustomerId, out int count)
         {
             var data = from o in _dbContext.OrdersInfo.Where(x => x.IsDeleted == false)
+                       join c in _dbContext.CustomerInfo.Where(c => c.IsDeleted == false)
+                       on o.CustomerId equals c.Id
+                       into temp
+                       from oc in temp.DefaultIfEmpty()
                        select new GetOrdersInfosDTO
                        {
-                           Id = Id,
-                           OrdersDetailld = o.OrdersDetailld,
-                           CustomerId = o.CustomerId,
-                           Price = o.Price,
-                           Description = o.Description,
-                           CreateTime = DateTime.Now,
+                           Id = Id,//编号
+                           OrdersDetailId = o.OrdersDetailId,//订单详情
+                           CustomerId = oc.Id,//客户编号
+                           Price = o.Price,//消费金额
+                           Description = o.Description,//备注
+                           CreateTime = DateTime.Now,//创建时间
                        };
             count = data.Count();
 

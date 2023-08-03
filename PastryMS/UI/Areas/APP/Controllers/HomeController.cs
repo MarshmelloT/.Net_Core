@@ -2,7 +2,7 @@
 using Models;
 using UI.Filters;
 
-namespace UI.Areas.Admin.Controllers
+namespace UI.Areas.APP.Controllers
 {
     [Area("Admin")]
     [MyFilters]
