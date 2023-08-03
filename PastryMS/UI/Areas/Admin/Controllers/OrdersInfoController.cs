@@ -1,6 +1,7 @@
 ﻿using BLL;
 using common;
 using IBLL;
+using IDAL;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Model.DTO;
