@@ -381,3 +381,11 @@ D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\A
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\workFlow_Model\CreateWorkFlow_ModelView.cshtml.g.cs
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\workFlow_Model\ListView.cshtml.g.cs
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\workFlow_Model\UpdateWorkFlow_ModelView.cshtml.g.cs
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.AssemblyReference.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.MvcApplicationPartsAssemblyInfo.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cs
