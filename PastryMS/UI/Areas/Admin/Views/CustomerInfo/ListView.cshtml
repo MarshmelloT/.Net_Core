@@ -52,10 +52,14 @@
                 <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">删除</a>
             </script>
             <script type="text/html" id="Sex">
-                {{# if(d.sex==0){}}
+                {{# if(d.sex==0){ }}
                 <a  style="pointer-events:none;">男</a>
                 {{# }else if(d.sex==1){ }}
                 <a  style="pointer-events:none;">女</a>
+                {{# }else if(d.sex=='男'){ }}
+                 <a  style="pointer-events:none;">男</a>
+                {{# }else if(d.sex=='女'){ }}
+                 <a  style="pointer-events:none;">女</a>
                 {{# } }}
             </script>
         </div>
@@ -83,7 +87,7 @@
                     { field: 'account', title: '账号' },
                     { field: 'customerName', title: '姓名', sort: true },
                     { field: 'age', title: '年龄' },
-                    { field: 'sex', title: '性别', templet :"Sex"},
+                    { field: 'sex', title: '性别', templet: "#Sex" },
                     { field: 'phoneNum', title: '手机号' },
                     { field: 'email', title: '邮箱' },
                     { field: 'description', title: '描述' },
