@@ -29,7 +29,7 @@ namespace IBLL
         /// <param name="entity"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        bool CreateOrdersInfo(OrdersInfo entity, out string msg);
+        //bool CreateOrdersInfo(OrdersInfo entity, out string msg);
 
         /// <summary>
         /// 软删除客户订单信息的方法
@@ -51,6 +51,6 @@ namespace IBLL
         /// <param name="ordersInfo"></param>
         /// <param name="msg"></param>
         /// <returns></returns>
-        bool UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg);
+        //bool UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg);
     }
 }
