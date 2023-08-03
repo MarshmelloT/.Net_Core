@@ -1,7 +1,3 @@
 is_global = true
 build_property.RootNamespace = BLL
-<<<<<<< HEAD
 build_property.ProjectDir = F:\NET实训课\Git\.Net_Core\PastryMS\BLL\
-=======
-build_property.ProjectDir = D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\BLL\
->>>>>>> c987753da4ca67c815372d422c66a28ec1459c5b
