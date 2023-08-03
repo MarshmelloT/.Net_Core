@@ -1,13 +1,3 @@
-D:\code\实训项目\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.deps.json
-D:\code\实训项目\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.dll
-D:\code\实训项目\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.pdb
-D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.csproj.AssemblyReference.cache
-D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.GeneratedMSBuildEditorConfig.editorconfig
-D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
-D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
-D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
-D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.dll
-D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.pdb
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.deps.json
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.dll
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.pdb
@@ -38,3 +28,13 @@ D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\Models\obj\Debug\netcoreap
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.dll
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.pdb
+D:\code\实训项目\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+D:\code\实训项目\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.dll
+D:\code\实训项目\.Net_Core\PastryMS\Models\bin\Debug\netcoreapp3.1\Models.pdb
+D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.dll
+D:\code\实训项目\.Net_Core\PastryMS\Models\obj\Debug\netcoreapp3.1\Models.pdb

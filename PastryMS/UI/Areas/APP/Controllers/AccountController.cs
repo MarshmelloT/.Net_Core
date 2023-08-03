@@ -7,9 +7,9 @@ using Microsoft.AspNetCore.Http;
 using System;
 using Castle.Core.Resource;
 
-namespace UI.Areas.Admin.Controllers
+namespace UI.Areas.APP.Controllers
 {
-    [Area("Admin")]
+    [Area("APP")]
     public class AccountController : Controller
     {
         private PastryMSDB _dbContext;

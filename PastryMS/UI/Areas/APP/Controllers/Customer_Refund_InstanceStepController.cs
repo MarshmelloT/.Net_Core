@@ -4,8 +4,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UI.Areas.Admin.Controllers
+namespace UI.Areas.APP.Controllers
 {
+    [Area("APP")]
+
     public class Customer_Refund_InstanceStepController : Controller
     {
         public IActionResult Index()

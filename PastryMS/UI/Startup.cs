@@ -83,6 +83,10 @@ namespace UI
             services.AddScoped<ICustomerInfoDAL, CustomerInfoDAL>();
             services.AddScoped<ICustomerInfoBLL, CustomerInfoBLL>();
 
+            services.AddScoped<IDessertInfoBLL, DessertInfoBLL>();
+            services.AddScoped<IDessertInfoDAL, DessertInfoDAL>();
+
+
 
         }
 
@@ -108,9 +112,19 @@ namespace UI
             app.UseSession();
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                   name: "Admin",
+                endpoints.MapAreaControllerRoute(
+                     name: "Admin",
+                     areaName: "Admin",
                    pattern: "{area:exists}/{controller=Account}/{action=LoginView}/{id?}");
+
+
+                endpoints.MapAreaControllerRoute(
+                    name: "APP",
+                    areaName: "APP",
+                  pattern: "{area:exists}/{controller=Account}/{action=LoginView}/{id?}");
+                //endpoints.MapControllerRoute(
+                //   name: "Admin",
+                //   pattern: "{area:exists}/{controller=Account}/{action=LoginView}/{id?}");
 
                 endpoints.MapControllerRoute(
                     name: "default",

@@ -2,9 +2,9 @@
 using Models;
 using UI.Filters;
 
-namespace UI.Areas.Admin.Controllers
+namespace UI.Areas.APP.Controllers
 {
-    [Area("Admin")]
+    [Area("APP")]
     [MyFilters]
     public class HomeController : Controller
     {
@@ -12,7 +12,7 @@ namespace UI.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            Redirect("/Admin/Home/Index");
+            Redirect("/APP/Home/Index");
             return View(); 
 
         }

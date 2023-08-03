@@ -8,6 +8,8 @@ namespace IBLL
 {
     public interface IDessertInfoBLL
     {
+        object GetSelectOptions();
+        DessertInfo GetDessertInfoById(string id);
         List<GetDessertInfoDTO> getDessertInfos(int page, int limit, string dessertName, string dessertTypeId, out int count);
         bool UpLoadDessertInfo(DessertInfo entity, out string msg);
         bool ReUpLoadDessertInfo(DessertInfo entity, out string msg);
