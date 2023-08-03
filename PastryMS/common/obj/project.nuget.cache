@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nLH/Jm+rberxBCET0Q18SOqHoycncnO0T7wwZT2yImM+LPbOyr+YjMloYb6sfsJJpSVNHrWoLx/oDGxot7qAiQ==",
+  "dgSpecHash": "iNAF+XHbu3pEo9jhQ/iseWn+iaZ8lTiGrvaYZ0Hvlbr2F21fA0/TiJUV323lgMGYB6l4zKE7sA5ZW5xOKv4CQA==",
   "success": true,
-  "projectFilePath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\common\\common.csproj",
+  "projectFilePath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

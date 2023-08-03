@@ -12,6 +12,7 @@ namespace Models.DTO
         public string Id { get; set; }
         public string DessertName { get; set; }
         public string DessertTypeId { get; set; }
+        public string DessertTypeName { get; set; }
         public decimal Price { get; set; }
         public int Num { get; set; }
         public string Description { get; set; }
