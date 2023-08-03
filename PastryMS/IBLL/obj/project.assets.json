@@ -4753,6 +4753,7 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5893,24 +5894,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\whz\\.nuget\\packages\\": {},
-    "D:\\Visual Studio\\VSshared\\NuGetPackages": {}
+    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
+      "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
       "projectName": "IBLL",
-      "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
-      "packagesPath": "C:\\Users\\whz\\.nuget\\packages\\",
-      "outputPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IBLL\\obj\\",
+      "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
+      "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
+      "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual Studio\\VSshared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\whz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5924,8 +5920,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-              "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\Models\\Models.csproj"
+            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
+              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj"
             }
           }
         }
@@ -5955,16 +5951,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "读取缓存文件 D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IBLL\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

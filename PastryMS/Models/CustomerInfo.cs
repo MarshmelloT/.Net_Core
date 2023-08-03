@@ -36,5 +36,10 @@ namespace Models
         /// </summary>
         [MaxLength(32)]
         public string Description { get; set; }
+
+        [MaxLength(50)]
+        public string PhoneNum { get; set; }
+        [MaxLength(50)]
+        public string Email { get; set; }
     }
 }

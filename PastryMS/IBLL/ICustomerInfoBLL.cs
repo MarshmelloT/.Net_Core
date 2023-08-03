@@ -15,7 +15,7 @@ namespace IBLL
         bool UpdateCustomerInfo(CustomerInfo customerInfo, out string msg);
         bool DeleteCustomerInfo(string id);
         bool DeleteCustomerInfos(List<string> ids);
-
+        List<GetCustomerInfoDTO> GetCustomerInfoDTO();
 
     }
 }

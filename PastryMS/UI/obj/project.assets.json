@@ -9750,24 +9750,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\whz\\.nuget\\packages\\": {},
-    "D:\\Visual Studio\\VSshared\\NuGetPackages": {}
+    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\UI\\UI.csproj",
+      "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
       "projectName": "UI",
-      "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\whz\\.nuget\\packages\\",
-      "outputPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\UI\\obj\\",
+      "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
+      "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Visual Studio\\VSshared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\whz\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9775,23 +9770,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
-              "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
+            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
+              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
             },
-            "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\common\\common.csproj": {
-              "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\common\\common.csproj"
+            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
+              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj"
             },
-            "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
-              "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\DAL\\DAL.csproj"
+            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
+              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj"
             },
-            "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-              "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
             }
           }
         }
@@ -9844,16 +9840,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "读取缓存文件 D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\UI\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

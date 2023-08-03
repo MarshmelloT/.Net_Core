@@ -4,6 +4,7 @@ using IDAL;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using Model.Enums;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,10 +18,10 @@ namespace UI.Controllers
 
     public class WorkFlow_InstanceStepController : Controller
     {
-        private RepositorySysDB _dbContext;
+        private PastryMSDB _dbContext;
         private IWorkFlow_InstanceStepBLL _IWorkFlow_InstanceStepBLL;
 
-        public WorkFlow_InstanceStepController(RepositorySysDB dbContext
+        public WorkFlow_InstanceStepController(PastryMSDB dbContext
             , IWorkFlow_InstanceStepBLL IWorkFlow_InstanceStepBLL
 
             )
