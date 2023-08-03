@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "tof+FCiKpWvNTU+r5y3zsOe1TYcezohWbTIiyKeOqYN4fOoyWRbLkZa5fmRaclN6/2TH/rdXStzj63ZWpTL0Kg==",
+  "dgSpecHash": "iNAF+XHbu3pEo9jhQ/iseWn+iaZ8lTiGrvaYZ0Hvlbr2F21fA0/TiJUV323lgMGYB6l4zKE7sA5ZW5xOKv4CQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj",
+  "projectFilePath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

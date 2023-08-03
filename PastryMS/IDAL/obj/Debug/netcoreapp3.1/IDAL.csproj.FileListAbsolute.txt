@@ -37,3 +37,16 @@ F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.
 F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CopyComplete
 F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.dll
 F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.pdb
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.deps.json
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.dll
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.pdb
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\Models.dll
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.AssemblyReference.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.AssemblyInfoInputs.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.AssemblyInfo.cs
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CoreCompileInputs.cache
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CopyComplete
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.dll
+D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.pdb
