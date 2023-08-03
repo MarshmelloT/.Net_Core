@@ -59,6 +59,7 @@ namespace UI.Areas.APP.Controllers
 
         #endregion
 
+<<<<<<< HEAD
         #region 添加客户订单信息的方法(CreateOrdersInfo)
         //[HttpPost]
         //public ActionResult CreateOrdersInfo([FromForm]OrdersInfo entity, out string msg)
@@ -80,6 +81,8 @@ namespace UI.Areas.APP.Controllers
 
         #endregion
 
+=======
+>>>>>>> 95409f66ef5300c20f14f6fc70dce105ff133a3d
         #region 软删除的方法(DeleteOrdersInfo)
         [HttpPost]
         public ActionResult DeleteOrdersInfo(string id)
@@ -133,6 +136,7 @@ namespace UI.Areas.APP.Controllers
         }
         #endregion
 
+<<<<<<< HEAD
         #region 更新的方法
         //[HttpPost]
         //public ActionResult UpdateOrdersInfo([FromForm]OrdersInfo ordersInfo, out string msg)
@@ -151,5 +155,7 @@ namespace UI.Areas.APP.Controllers
         //    return Json(result); ;//返回结果
         //}
         #endregion
+=======
+>>>>>>> 95409f66ef5300c20f14f6fc70dce105ff133a3d
     }
 }

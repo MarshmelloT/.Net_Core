@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "ListView";
 }
 
@@ -40,15 +39,14 @@
 
             <script type="text/html" id="toolbarDemo">
                 <div class="layui-btn-container">
-                    <button class="layui-btn layui-btn-normal layui-btn-sm data-add-btn" lay-event="add"> 添加 </button>
-                    <button class="layui-btn layui-btn-sm layui-btn-danger data-delete-btn" lay-event="delete"> 删除 </button>
+                    <button class="layui-btn layui-btn-sm layui-btn-danger data-delete-btn" lay-event="delete"> 批量删除 </button>
                 </div>
             </script>
 
             <table class="layui-hide" id="currentTableId" lay-filter="currentTableFilter"></table>
 
             <script type="text/html" id="currentTableBar">
-                <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">编辑</a>
+                <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">详情</a>
                 <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">删除</a>
             </script>
 
@@ -76,12 +74,12 @@
                 cols: [[
                     { type: "checkbox", width: 50 },
                     { field: 'id', title: 'ID', sort: true, hide: true },
-                    { field: 'ordersDetailld',title: '订单详情' },
-                    { field: 'customerId',title: '客户编号' },
-                    { field: 'price',title: '消费金额' },
-                    { field: 'description',title: '备注',},
-                    { field: 'createTime',title: '创建时间',},
-                    { title: '操作',toolbar: '#currentTableBar', align: "center" }
+                    { field: 'ordersDetailId', title: '订单详情' },
+                    { field: 'customerId', title: '客户编号' },
+                    { field: 'price', title: '消费金额' },
+                    { field: 'description', title: '备注', },
+                    { field: 'createTime', title: '创建时间', },
+                    { title: '操作', toolbar: '#currentTableBar', align: "center" }
                 ]],
                 limits: [10, 15, 20, 25, 50, 100],
                 limit: 15,
@@ -117,14 +115,13 @@
             table.on('toolbar(currentTableFilter)', function (obj) {
                 if (obj.event === 'add') {  // 监听添加操作
                     var index = layer.open({
-                        title: '添加',
+                        title: '订单详情',
                         type: 2,
                         shade: 0.2,
                         maxmin: true,
                         shadeClose: true,
                         area: ['80%', '80%'],
-                        //content: '~/layuimini/page/table/add.html',
-                        content: '/Category/CreateCategoryView',
+                        content: '/OrdersInfo/GetOrdersDetailInfo',
 
                     });
                     $(window).on("resize", function () {
@@ -145,7 +142,7 @@
 
                     //请求批量删除的方法$.ajax
                     $.ajax({
-                        url: "/Category/DeleteCategorys",
+                        url: "/OrdersInfo/DeleteOrdersInfos",
                         type: "Post",
                         data: {
                             ids: ids
@@ -176,32 +173,12 @@
 
             table.on('tool(currentTableFilter)', function (obj) {
                 var data = obj.data;
-                if (obj.event === 'edit') {
-
-                    var index = layer.open({
-                        title: '编辑耗材类别',
-                        type: 2,
-                        shade: 0.2,
-                        maxmin: true,
-                        shadeClose: true,
-                        area: ['80%', '80%'],
-                        //content: '~/layuimini/page/table/edit.html',
-                        content: '/Category/UpdateCategoryView?id=' + data.id,
-                        success: function (layero, index) {
-                            var iframe = window['layui-layer-iframe' + index];
-                            iframe.getData(data);
-                        }
-                    });
-                    $(window).on("resize", function () {
-                        layer.full(index);
-                    });
-                    return false;
-                } else if (obj.event === 'delete') {
+                if (obj.event === 'delete') {
                     layer.confirm('真的删除行么', function (index) {
 
                         //$.ajax
                         $.ajax({
-                            url: "/Category/DeleteCategory",
+                            url: "/OrdersInfo/DeleteOrdersInfo",
                             type: "POST",
                             data: {
                                 id: data.id
