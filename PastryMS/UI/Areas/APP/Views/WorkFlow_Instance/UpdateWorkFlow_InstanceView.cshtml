@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="~/layuimini/lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="~/layuimini/css/public.css" media="all">
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="layui-form layuimini-form" lay-filter="formTest">
+        <div class="layui-form-item">
+            <label class="layui-form-label required">类别名称</label>
+            <div class="layui-input-block">
+                <input type="text" name="categoryName" lay-reqtext="耗材名称不能为空" placeholder="请输入类别名称" value="" class="layui-input">
+                <tip>填写类别名称。</tip>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label ">描述</label>
+            <div class="layui-input-block">
+                <input type="text" name="description" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">确认保存</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/layuimini/lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+    <script>
+        var parentData;
+        var form;
+        function getData(Data) {
+            parentData = Data;
+
+            form.val("formTest", {
+                "categoryName": parentData.categoryName,
+                "description": parentData.description,
+
+            })
+        }
+
+        layui.use(['form'], function () {
+            var layer = layui.layer,
+                $ = layui.$;
+            form = layui.form;
+
+            var id = window.location.search.substr(4);
+
+            //$.ajax({
+            //    url: "/MenuInfo/GetMenuInfoById",
+            //    type: "Get",
+            //    data: {
+            //        id: id
+            //    },
+            //    success: function (res) {
+            //        //var leaderSelect = res.data.leaderSelect;
+            //        //for (var i = 0; i < leaderSelect.length; i++) {
+            //        //    $('#leaderSelect').append('<Option value="' + leaderSelect[i].value + '">' + leaderSelect[i].title + '</Option>');
+            //        //}
+            //        var parentSelect = res.data.selectOption.parentSelect;
+            //        for (var i = 0; i < parentSelect.length; i++) {
+            //            $('#parentSelect').append('<Option value="' + parentSelect[i].value + '">' + parentSelect[i].title + '</Option>');
+            //        }
+            //        form.render('select');
+
+            //        form.val('formTest', {
+            //            "parentId": res.data.menuInfo.parentId
+            //        })
+            //    }
+            //})
+
+            //监听提交
+            form.on('submit(saveBtn)', function (data) {
+                data.field.id = parentData.id;
+                $.ajax({
+                    url: "/Admin/Category/UpdateCategories",
+                    type: "Post",
+                    data: data.field,
+                    success: function (res) {
+                        if (res.code == 200) {
+                            var index = layer.alert(res.msg, {
+                                title: '添加结果'
+                            }, function () {
+                                // 关闭弹出层
+                                layer.close(index);
+                                var iframeIndex = parent.layer.getFrameIndex(window.name);
+                                parent.layer.close(iframeIndex);
+                                parent.location.reload();
+                            });
+
+                        } else {
+                            layer.alert(res.msg);
+                        }
+                    }
+                })
+                return false;
+            });
+
+        });
+    </script>
+</body>
+</html>

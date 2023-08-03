@@ -4737,6 +4737,7 @@
       "path": "system.runtime.interopservices.runtimeinformation/4.0.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -5869,30 +5870,42 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Castle.Windsor >= 6.0.0",
-      "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0"
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\22973\\.nuget\\packages\\": {},
     "D:\\vsss\\NuGetPackages": {}
+=======
+    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
+>>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
       "projectName": "Models",
       "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\obj\\",
+=======
+      "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+      "projectName": "Models",
+      "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
+      "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\obj\\",
+>>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\vsss\\NuGetPackages"
-      ],
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5922,10 +5935,6 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
-          "Microsoft.EntityFrameworkCore": {
-            "target": "Package",
-            "version": "[3.1.0, )"
-          },
           "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[3.1.0, )"
@@ -5951,7 +5960,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+>>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
       }
     }
   },
@@ -5960,7 +5973,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< HEAD
       "message": "读取缓存文件 C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'expectedPackageFiles', line 106, position 0."
+=======
+      "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
     }
   ]
 }
