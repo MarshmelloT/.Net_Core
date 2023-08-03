@@ -5658,19 +5658,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\27916\\.nuget\\packages\\": {}
+    "C:\\Users\\abc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\Models.csproj",
-      "packagesPath": "C:\\Users\\27916\\.nuget\\packages\\",
-      "outputPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\obj\\",
+      "projectPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+      "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\27916\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5728,7 +5728,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {}
+    "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {}
   },
   "projects": {
-    "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+    "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
+        "projectUniqueName": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
         "projectName": "IDAL",
-        "projectPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
-        "packagesPath": "C:\\Users\\27916\\.nuget\\packages\\",
-        "outputPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\IDAL\\obj\\",
+        "projectPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
+        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\27916\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-                "projectPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\Models.csproj"
+              "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj"
               }
             }
           }
@@ -64,21 +64,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
+    "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+        "projectUniqueName": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
         "projectName": "Models",
-        "projectPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\27916\\.nuget\\packages\\",
-        "outputPath": "F:\\NET实训课\\Git\\.Net_Core\\PastryMS\\Models\\obj\\",
+        "projectPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+        "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\27916\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,7 +136,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -381,3 +381,13 @@ D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\A
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\workFlow_Model\CreateWorkFlow_ModelView.cshtml.g.cs
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\workFlow_Model\ListView.cshtml.g.cs
 D:\code\实训项目\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\workFlow_Model\UpdateWorkFlow_ModelView.cshtml.g.cs
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.AssemblyReference.cache
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.GeneratedMSBuildEditorConfig.editorconfig
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfoInputs.cache
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.AssemblyInfo.cs
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.csproj.CoreCompileInputs.cache
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.MvcApplicationPartsAssemblyInfo.cache
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cache
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.RazorAssemblyInfo.cs
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.dll
+D:\8-3\.Net_Core\PastryMS\UI\obj\Debug\netcoreapp3.1\UI.pdb
