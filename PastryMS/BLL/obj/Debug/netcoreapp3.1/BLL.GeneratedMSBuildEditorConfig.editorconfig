@@ -1,3 +1,11 @@
 is_global = true
 build_property.RootNamespace = BLL
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Administrator\Desktop\.Net_Core\PastryMS\BLL\
+=======
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\22973\Documents\GitHub\.Net_Core\PastryMS\BLL\
+=======
+build_property.ProjectDir = D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\BLL\
+>>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
+>>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6

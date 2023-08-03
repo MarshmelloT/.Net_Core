@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = IDAL
+<<<<<<< HEAD
 build_property.ProjectDir = C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IDAL\
+=======
+build_property.ProjectDir = C:\Users\22973\Documents\GitHub\.Net_Core\PastryMS\IDAL\
+>>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
