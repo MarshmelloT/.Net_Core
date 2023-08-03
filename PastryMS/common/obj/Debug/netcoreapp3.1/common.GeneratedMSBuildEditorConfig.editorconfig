@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = common
+<<<<<<< HEAD
+build_property.ProjectDir = C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\
+=======
 build_property.ProjectDir = D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\
+>>>>>>> c987753da4ca67c815372d422c66a28ec1459c5b
