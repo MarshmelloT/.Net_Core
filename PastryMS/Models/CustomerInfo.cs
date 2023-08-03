@@ -25,8 +25,8 @@ namespace Models
         /// <summary>
         /// 客户性别
         /// </summary>
-        [MaxLength(2)]
-        public char Sex { get; set; }
+        [MaxLength(16)]
+        public string Sex { get; set; }
         /// <summary>
         /// 客户年龄
         /// </summary>

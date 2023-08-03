@@ -20,7 +20,7 @@ namespace Models.DTO
         /// <summary>
         /// 客户性别
         /// </summary>
-        public char Sex { get; set; }
+        public string Sex { get; set; }
         /// <summary>
         /// 客户年龄
         /// </summary>
