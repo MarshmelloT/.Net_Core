@@ -1,6 +1,8 @@
-﻿using System;
+﻿using Castle.MicroKernel.SubSystems.Conversion;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Models
@@ -13,7 +15,7 @@ namespace Models
 
         [MaxLength(36)]
         public string CustomerId { get; set; }//客户编号
-
+        [Column(TypeName = "decimal(18,2)")]
         public decimal Price { get; set; }//消费金额
 
         [MaxLength(50)]

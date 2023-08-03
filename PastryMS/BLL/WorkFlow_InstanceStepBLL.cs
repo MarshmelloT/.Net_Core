@@ -43,11 +43,11 @@ namespace BLL
                        on wswi.ModelId equals wm.Id
                        into Twm
                        from wwm in Twm
-                       join u in _dbContext.UserInfo
+                       join u in _dbContext.StaffInfo
                        on wswi.Creator equals u.Id
                        into Twmu
                        from wwu in Twmu
-                       join u2 in _dbContext.UserInfo
+                       join u2 in _dbContext.StaffInfo
                        on ws.ReviewerId equals u2.Id
                        into Twmu2
                        from wwu2 in Twmu2
@@ -56,7 +56,7 @@ namespace BLL
                            Id = ws.Id,
                            Title = wwm.Title,
                            InstanceId = wswi.Id,
-                           UserName = wwu.UserName,
+                           UserName = wwu.StaffName,
                            ReviewerId = ws.ReviewerId,
                            ReviewStatus = ws.ReviewStatus,
                            ReviewReason = ws.ReviewReason,

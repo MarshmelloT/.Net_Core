@@ -15,7 +15,7 @@ namespace DAL
             _dbContext = dbContext;
         }
 
-        public DbSet<CustomerInfo> GetCustomerInfoAll()
+        public DbSet<CustomerInfo> GetCustomerInfo()
         {
             return _dbContext.CustomerInfo;
         }

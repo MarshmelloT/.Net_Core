@@ -32,6 +32,9 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {
+                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj"
+              },
               "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
                 "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
               },
@@ -383,6 +386,14 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.0, )"
             }
           },
           "imports": [
@@ -471,6 +482,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [

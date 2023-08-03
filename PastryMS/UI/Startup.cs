@@ -34,6 +34,7 @@ namespace UI
             services.AddSession();
 
             services.AddDbContext<PastryMSDB>(options => options.UseSqlServer("name=ConnectionStrings:SqlStr"));
+
             //¿çÓò
             services.AddCors(options =>
             {
@@ -100,11 +101,17 @@ namespace UI
             app.UseStaticFiles();
 
             app.UseRouting();
-
+            //ÆôÓÃ¿çÓò
+            app.UseCors("MyCorsPolicy");
             app.UseAuthorization();
-
+            //ÆôÓÃSession
+            app.UseSession();
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapControllerRoute(
+                   name: "Admin",
+                   pattern: "{area:exists}/{controller=Account}/{action=LoginView}/{id?}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
