@@ -69,7 +69,7 @@
 
             table.render({
                 elem: '#currentTableId',
-                url: '/Admin/UserInfo/GetUserInfos',
+                url: '/Admin/CustomerInfo/getCustomerInfo',
                 //url: '~/layuimini/api/table.json',
                 toolbar: '#toolbarDemo',
                 defaultToolbar: ['filter', 'exports', 'print', {
@@ -130,7 +130,7 @@
                         maxmin: true,
                         shadeClose: true,
                         area: ['80%', '80%'],
-                        content: '/UserInfo/CreateUserInfoView',
+                        content: '/Admin/CustomerInfo/CreateCustomerInfoView',
                     });
                     $(window).on("resize", function () {
                         layer.full(index);
@@ -147,7 +147,7 @@
 
 
                     $.ajax({
-                        url: "/Admin/UserInfo/DeleteUserInfos",
+                        url: "/Admin/CustomerInfo/DeleteCustomerInfos",
                         type: "Post",
                         data: {
                             ids: ids
@@ -184,7 +184,7 @@
                         maxmin: true,
                         shadeClose: true,
                         area: ['80%', '80%'],
-                        content: '/UserInfo/UpdateUserInfoView?id=' + data.id,
+                        content: '/Admin/CustomerInfo/UpdateCustomerInfoView?id=' + data.id,
                         success: function (layero, index) {
                             var iframe = window['layui-layer-iframe' + index];
                             iframe.getData(data)
@@ -197,7 +197,7 @@
                 } else if (obj.event === 'delete') {
                     layer.confirm('真的删除么', function (index) {
                         $.ajax({
-                            url: "/UserInfo/DeleteUserInfo",
+                            url: "/Admin/CustomerInfo/DeleteCustomerInfo",
                             type: "Post",
                             data: {
                                 id: data.id
