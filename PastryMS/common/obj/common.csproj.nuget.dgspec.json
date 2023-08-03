@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {}
   },
   "projects": {
@@ -12,9 +13,30 @@
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\",
+=======
+    "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\common\\common.csproj": {}
+  },
+  "projects": {
+    "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\common\\common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\common\\common.csproj",
+        "projectName": "common",
+        "projectPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\common\\common.csproj",
+        "packagesPath": "C:\\Users\\whz\\.nuget\\packages\\",
+        "outputPath": "D:\\学习\\知识积累\\XiaoZuZuoYe\\.Net_Core\\PastryMS\\common\\obj\\",
+>>>>>>> acda441024af26e73babab46e15e943b4afbaa9a
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Visual Studio\\VSshared\\NuGetPackages"
+        ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\whz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> acda441024af26e73babab46e15e943b4afbaa9a
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,7 +77,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+>>>>>>> acda441024af26e73babab46e15e943b4afbaa9a
         }
       }
     }
