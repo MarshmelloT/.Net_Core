@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "oKt5NxwFHJ9utZMIb8jAQEILFaRa7BL9ATo7e498urm3gsWYo4brj93ZHKePENoFF/B3EwJ4PLeivDBOZv4Psw==",
+  "dgSpecHash": "NcTRXJvZNaQseawVQuwowXbiD6DKwKvA2Z2AgOwLi2Cm25Lwo8o1NyX9tf6el1lqiSmcFNhseDDK3bN+aM8pgg==",
   "success": true,
   "projectFilePath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
   "expectedPackageFiles": [
@@ -103,5 +103,12 @@
     "C:\\Users\\abc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\abc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "读取缓存文件 C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

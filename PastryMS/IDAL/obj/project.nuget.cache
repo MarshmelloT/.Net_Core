@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xCwlpw9KF3ifJ6IQbEMACWokIE+EA3bgYbawgRlV6/vjnqvP8KzD5Ny7dpwx5ucDMag+vbOBOo61DkWjpSWztA==",
+  "dgSpecHash": "h4n3GZ32JJy1ZcQsbW6Qi1Llco/YDOXi195qu+EdzUQsBkrL0IzYyN14Z8XCvkzPvH4cP112YOr9B3sYtjwZDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
   "expectedPackageFiles": [
@@ -103,5 +103,12 @@
     "C:\\Users\\abc\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\abc\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "读取缓存文件 C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
