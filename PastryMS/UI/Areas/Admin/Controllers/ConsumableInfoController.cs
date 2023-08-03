@@ -11,6 +11,7 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using Microsoft.AspNetCore.Http;
+using Models;
 
 namespace UI.Controllers
 {
@@ -19,22 +20,16 @@ namespace UI.Controllers
 
     public class ConsumableInfoController : Controller
     {
-        private RepositorySysDB _dbContext;
+        private PastryMSDB _dbContext;
         private IConsumableInfoBLL _consumableInfoBLL;
-        private IFileInfoBLL _fileInfoBLL;
-        private IHelper _helper;
 
         public ConsumableInfoController(
-            RepositorySysDB dbContext
+            PastryMSDB dbContext
             , IConsumableInfoBLL consumableInfoBLL
-            , IFileInfoBLL fileInfoBLL
-            , IHelper helper
             )
         {
             _dbContext = dbContext;
             _consumableInfoBLL = consumableInfoBLL;
-            _fileInfoBLL = fileInfoBLL;
-            _helper = helper;
         }
         // GET: ConsumableInfo
         public IActionResult ListView()
@@ -67,7 +62,7 @@ namespace UI.Controllers
             return Json(result);
         }
         [HttpPost]
-        public IActionResult CreateConsumableInfo([FromBody] ConsumableInfo consumableInfo)
+        public IActionResult CreateConsumableInfo([FromForm] ConsumableInfo consumableInfo)
         {
             string msg;
             bool isok = _consumableInfoBLL.CreateConsumableInfo(consumableInfo, out msg);
@@ -121,7 +116,7 @@ namespace UI.Controllers
             return Json(result);
         }
         [HttpPost]
-        public IActionResult UpdateConsumableInfo([FromBody] ConsumableInfo userInfo)
+        public IActionResult UpdateConsumableInfo([FromForm] ConsumableInfo userInfo)
         {
             ReturnResult result = new ReturnResult();
 
@@ -236,76 +231,76 @@ namespace UI.Controllers
             return File(stream, "application/octet-stream", downloadFileName);
         }
 
-        #region 上传图片
+        //#region 上传图片
 
-        public IActionResult UpLoadImg(IFormFile file)
-        {
-            //实例化返回对象
-            ReturnResult result = new ReturnResult();
+        //public IActionResult UpLoadImg(IFormFile file)
+        //{
+        //    //实例化返回对象
+        //    ReturnResult result = new ReturnResult();
 
-            var userId = HttpContext.Request.Cookies["UserId"];
-            if (userId == null || string.IsNullOrWhiteSpace(userId))
-            {
-                result.Msg = "上传用户的id不存在";
-                return Json(result);
-            }
+        //    var userId = HttpContext.Request.Cookies["UserId"];
+        //    if (userId == null || string.IsNullOrWhiteSpace(userId))
+        //    {
+        //        result.Msg = "上传用户的id不存在";
+        //        return Json(result);
+        //    }
 
-            //非空判断
-            if (file == null)
-            {
-                result.Msg = "文件为空";
-                return Json(result);
-            }
+        //    //非空判断
+        //    if (file == null)
+        //    {
+        //        result.Msg = "文件为空";
+        //        return Json(result);
+        //    }
 
-            //获取文件名
-            string fileName = file.FileName;
-            string extension = Path.GetExtension(fileName);//获取后缀
-            long length = file.Length;
+        //    //获取文件名
+        //    string fileName = file.FileName;
+        //    string extension = Path.GetExtension(fileName);//获取后缀
+        //    long length = file.Length;
 
-            if (length > 5 * 1024 * 1024)
-            {
-                result.Msg = "不能等于5MB";
-                return Json(result);
+        //    if (length > 5 * 1024 * 1024)
+        //    {
+        //        result.Msg = "不能等于5MB";
+        //        return Json(result);
 
-            }
+        //    }
 
-            //判断文件后缀是否为Excel文件
-            if (extension == ".png" || extension == ".jpg" || extension == ".gif")
-            {
-                Stream stream = file.OpenReadStream();//获取传递进来的文件流
-                string msg;
-                string fileId;
-                bool isok = _helper.Upload(stream, extension, userId, out fileId, out msg);
-                isok = _fileInfoBLL.CreateFileInfo(fileId, length, extension, userId, out msg);
+        //    //判断文件后缀是否为Excel文件
+        //    if (extension == ".png" || extension == ".jpg" || extension == ".gif")
+        //    {
+        //        Stream stream = file.OpenReadStream();//获取传递进来的文件流
+        //        string msg;
+        //        string fileId;
+        //        bool isok = _helper.Upload(stream, extension, userId, out fileId, out msg);
+        //        isok = _fileInfoBLL.CreateFileInfo(fileId, length, extension, userId, out msg);
 
-                result.IsSuccess = isok;
-                result.Msg = msg;
-                if (isok)
-                {
-                    result.Code = 200;
-                }
-                return Json(result);
-            }
-            else
-            {
-                result.Msg = "文件类型只能为Excel";
-                return Json(result);
-            }
-        }
-        #endregion
+        //        result.IsSuccess = isok;
+        //        result.Msg = msg;
+        //        if (isok)
+        //        {
+        //            result.Code = 200;
+        //        }
+        //        return Json(result);
+        //    }
+        //    else
+        //    {
+        //        result.Msg = "文件类型只能为Excel";
+        //        return Json(result);
+        //    }
+        //}
+        //#endregion
 
 
-        #region DownLoadImg
+        //#region DownLoadImg
 
-        public IActionResult DownLoadImg(string id)
-        {
+        //public IActionResult DownLoadImg(string id)
+        //{
 
-            var fileInfo = _fileInfoBLL.GetFileInfo(id);
-            Stream stream = _helper.DownLoad(fileInfo.Id, fileInfo.Creator, fileInfo.Extension);
+        //    var fileInfo = _fileInfoBLL.GetFileInfo(id);
+        //    Stream stream = _helper.DownLoad(fileInfo.Id, fileInfo.Creator, fileInfo.Extension);
 
-            return File(stream, fileInfo.Category);
+        //    return File(stream, fileInfo.Category);
 
-        }
-        #endregion
+        //}
+        //#endregion
     }
 }

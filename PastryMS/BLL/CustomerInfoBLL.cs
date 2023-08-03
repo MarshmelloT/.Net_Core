@@ -150,6 +150,9 @@ namespace BLL
             return true;
         }
 
+
+        #endregion
+
         public bool UpdateCustomerInfo(CustomerInfo customerInfo, out string msg)
         {
             if (string.IsNullOrWhiteSpace(customerInfo.Id))
@@ -194,6 +197,19 @@ namespace BLL
             msg = isOK ? "修改用户成功" : "修改用户失败";
             return isOK;
         }
-        #endregion
+
+        public List<GetCustomerInfoDTO> GetCustomerInfoDTO()
+        {
+            List<GetCustomerInfoDTO> userlist = _ICustomerInfoDAL.GetEntities()
+                                                      .Where(x => x.IsDeleted == false)
+                                                      .Select(x => new GetCustomerInfoDTO
+                                                      {
+                                                          Id = x.Id,
+                                                          CustomerName = x.CustomerName,
+                                                      })
+                                                      .ToList();
+
+            return userlist;
+        }
     }
 }

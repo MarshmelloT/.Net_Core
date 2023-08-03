@@ -4,6 +4,7 @@ using IBLL;
 using Microsoft.AspNetCore.Mvc;
 using Model;
 using Model.DTO;
+using Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,11 +18,11 @@ namespace UI.Controllers
 
     public class WorkFlow_InstanceController : Controller
     {
-        private RepositorySysDB _dbContext;
+        private PastryMSDB _dbContext;
         private IConsumableInfoBLL _consumableInfoBLL;
         private IWorkFlow_InstanceBLL _WorkFlow_InstanceBLL;
 
-        public WorkFlow_InstanceController(RepositorySysDB dbContext
+        public WorkFlow_InstanceController(PastryMSDB dbContext
             , IConsumableInfoBLL consumableInfoBLL
             , IWorkFlow_InstanceBLL WorkFlow_InstanceBLL
             )
@@ -106,7 +107,7 @@ namespace UI.Controllers
 
         }
         [HttpPost]
-        public IActionResult CreateWorkFlow_Instance([FromBody] WorkFlow_Instance entity)
+        public IActionResult CreateWorkFlow_Instance([FromForm] WorkFlow_Instance entity)
         {
             ReturnResult result = new ReturnResult();
 
