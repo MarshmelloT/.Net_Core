@@ -58,29 +58,8 @@ namespace UI.Areas.Admin.Controllers
         #endregion
 
         #region 添加客户订单信息的方法(CreateOrdersInfo)
-        [HttpPost]
-        public ActionResult CreateOrdersInfo(OrdersInfo entity, out string msg)
-        {
-            //调用添加角色的方法
-            bool IsSuccess = _ordersInfoBLL.CreateOrdersInfo(entity, out msg);
-            //返回结果封装
-            ReturnResult result = new ReturnResult();
-            result.Msg = msg;
-            result.IsSuccess = IsSuccess;
-
-            //判断是否成功
-            if (IsSuccess)
-            {
-                result.Code = 200;
-            }
-            return Json(result);
-        }
-
-        #endregion
-
-        #region 添加客户订单信息的方法(CreateOrdersInfo)
         //[HttpPost]
-        //public ActionResult CreateOrdersInfo([FromForm]OrdersInfo entity, out string msg)
+        //public ActionResult CreateOrdersInfo(OrdersInfo entity, out string msg)
         //{
         //    //调用添加角色的方法
         //    bool IsSuccess = _ordersInfoBLL.CreateOrdersInfo(entity, out msg);
@@ -153,27 +132,8 @@ namespace UI.Areas.Admin.Controllers
         #endregion
 
         #region 更新的方法
-        [HttpPost]
-        public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
-        {
-            //实例化返回对象
-            ReturnResult result = new ReturnResult();
-            //调用方法
-            bool isOk = _ordersInfoBLL.UpdateOrdersInfo(ordersInfo, out msg);
-            result.Msg = msg;
-            //判断是否成功
-            if (isOk)
-            {
-                result.Code = 200;
-                result.IsSuccess = isOk;
-            }
-            return Json(result);//返回结果
-        }
-        #endregion
-
-        #region 更新的方法
         //[HttpPost]
-        //public ActionResult UpdateOrdersInfo([FromForm]OrdersInfo ordersInfo, out string msg)
+        //public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
         //{
         //    //实例化返回对象
         //    ReturnResult result = new ReturnResult();
@@ -186,8 +146,9 @@ namespace UI.Areas.Admin.Controllers
         //        result.Code = 200;
         //        result.IsSuccess = isOk;
         //    }
-        //    return Json(result); ;//返回结果
+        //    return Json(result);//返回结果
         //}
         #endregion
+
     }
 }
