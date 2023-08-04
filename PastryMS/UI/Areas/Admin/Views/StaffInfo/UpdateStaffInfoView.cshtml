@@ -21,24 +21,24 @@
 </head>
 <body>
     <div class="layui-form layuimini-form" lay-filter="formTest">
-        <div class="layui-form-item">
-            <label class="layui-form-label required">员工账号</label>
-            <div class="layui-input-block">
-                <input type="text" name="account" lay-verify="required" lay-reqtext="账号不能为空" placeholder="请输入账号" value="" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label required">用户密码</label>
-            <div class="layui-input-block">
-                <input type="text" name="pwd" lay-verify="required" lay-reqtext="密码不能为空" placeholder="请输入密码" value="" class="layui-input">
-            </div>
-        </div>
+		<div class="layui-form-item">
+			<label class="layui-form-label ">用户账号</label>
+			<div class="layui-input-block">
+				<input type="text" readonly name="account" value="" class="layui-input">
+			</div>
+		</div>
         <div class="layui-form-item">
             <label class="layui-form-label required">员工姓名</label>
             <div class="layui-input-block">
                 <input type="text" name="staffName" lay-verify="required" lay-reqtext="姓名不能为空" placeholder="请输入姓名" value="" class="layui-input">
             </div>
         </div>
+		<div class="layui-form-item">
+			<label class="layui-form-label ">用户密码</label>
+			<div class="layui-input-block">
+				<input type="text" name="pwd" value="" class="layui-input">
+			</div>
+		</div>
         <div class="layui-form-item">
             <label class="layui-form-label ">描述</label>
             <div class="layui-input-block">
@@ -71,11 +71,10 @@
 			//使用form表单模块赋值
 			form.val("formTest", {
 				"account": parentData.account,
-				"passWord": "",
-				"userName": parentData.userName,
-				"phoneNum": parentData.phoneNum,
-				"email": parentData.email,
-				"departmentId": parentData.departmentId,
+				"pwd": "",
+				"staffName": parentData.staffName,
+				"leaderId": parentData.leaderId,
+				"description": parentData.description,
 				"sex": parentData.sex,
 			});
 		}
@@ -93,7 +92,7 @@
 
 			//通过Ajax去获取下拉列表数据进行渲染
 			$.ajax({
-                url: '/StaffInfo/GetSelectOptions',
+                url: '/Admin/StaffInfo/GetSelectOptions',
 				type: "get",
 				success: function (res) {
 					console.log("接口返回的结果", res);
@@ -119,7 +118,7 @@
 
 				//$.ajax
 				$.ajax({
-                    url: '/StaffInfo/UpdateStaffInfo',
+                    url: '/Admin/StaffInfo/UpdateStaffInfo',
 					type: 'Post',
 					data: data.field,
 					success: function (res) {

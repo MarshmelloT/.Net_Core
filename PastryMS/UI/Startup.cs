@@ -86,7 +86,8 @@ namespace UI
             services.AddScoped<IDessertInfoBLL, DessertInfoBLL>();
             services.AddScoped<IDessertInfoDAL, DessertInfoDAL>();
 
-
+            services.AddScoped<IStaffInfoBLL, StaffInfoBLL>();
+            services.AddScoped<IStaffInfoDAL, StaffInfoDAL>();
 
         }
 

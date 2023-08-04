@@ -59,5 +59,7 @@ namespace IBLL
         /// <param name="msg"></param>
         /// <returns></returns>
         bool UpdateStaffInfo(StaffInfo staffInfo, out string msg);
-    }
+        List<GetStaffInfoDTO> GetStaffInfoDTO();
+
+	}
 }

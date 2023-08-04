@@ -33,11 +33,13 @@
         "dependencies": {
           "BLL": "1.0.0",
           "DAL": "1.0.0",
+          "IBLL": "1.0.0",
           "IDAL": "1.0.0",
           "Microsoft.EntityFrameworkCore": "3.1.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.0",
           "Microsoft.EntityFrameworkCore.Tools": "3.1.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
+          "Models": "1.0.0",
           "common": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",

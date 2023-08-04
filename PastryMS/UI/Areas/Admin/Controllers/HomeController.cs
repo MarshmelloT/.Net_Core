@@ -4,16 +4,15 @@ using UI.Filters;
 
 namespace UI.Areas.Admin.Controllers
 {
+    //里面
     [Area("Admin")]
-    [MyFilters]
     public class HomeController : Controller
     {
         private PastryMSDB db = new PastryMSDB();
 
         public IActionResult Index()
         {
-            Redirect("/Admin/Home/Index");
-            return View(); 
+            return View();
 
         }
     }

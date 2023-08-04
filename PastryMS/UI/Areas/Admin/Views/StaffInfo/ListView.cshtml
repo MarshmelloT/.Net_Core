@@ -69,7 +69,7 @@
 
 			table.render({
 				elem: '#currentTableId',
-                url: '/StaffInfo/GetStaffInfos',
+                url: '/Admin/StaffInfo/GetStaffInfos',
 				toolbar: '#toolbarDemo',
 				defaultToolbar: ['filter', 'exports', 'print', {
 					title: '提示',
@@ -79,10 +79,10 @@
 				cols: [[
 					{ type: "checkbox"},
 					{ field: 'id', title: 'ID', sort: true, hide: true },
-                    { field: 'description', title: '描述', sort: true },
                     { field: 'account', title: '员工账号' },
                     { field: 'staffName', title: '员工姓名', sort: true },
                     { field: 'leaderId',  title: '主管Id', sort: true },
+					{ field: 'description', title: '描述', sort: true },
 					{ field: 'createTime',  title: '创建时间' },
 					{ title: '操作', toolbar: '#currentTableBar', align: "center" }
 				]],
@@ -125,7 +125,7 @@
 						maxmin: true,
 						shadeClose: true,
 						area: ['80%', '80%'],
-                        content:'/StaffInfo/CreateStaffInfoView',
+						content: '/Admin/StaffInfo/CreateStaffInfoView',
 					});
 					$(window).on("resize", function () {
 						layer.full(index);
@@ -145,7 +145,7 @@
 
 					//请求批量删除的方法$.ajax
 					$.ajax({
-                        url: "/StaffInfo/DeleteStaffInfos",
+						url: "/Admin/StaffInfo/DeleteStaffInfos",
 						type: "Post",
 						data: {
 							ids: ids
@@ -187,7 +187,7 @@
 						maxmin: true,
 						shadeClose: true,
 						area: ['80%', '80%'],
-                        content: '/StaffInfo/UpdateStaffInfoView?id=' + data.id,
+						content: '/Admin/StaffInfo/UpdateStaffInfoView?id=' + data.id,
 						success: function (layero, index) {
 							var iframe = window['layui-layer-iframe' + index];
 							iframe.getData(data);
@@ -203,7 +203,7 @@
 
 						//$.ajax
 						$.ajax({
-                            url: "/StaffInfo/DeleteStaffInfo",
+							url: "/Admin/StaffInfo/DeleteStaffInfo",
 							type: "Post",
 							data: {
 								id: data.id

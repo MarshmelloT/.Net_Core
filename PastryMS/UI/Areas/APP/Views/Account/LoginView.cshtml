@@ -188,7 +188,7 @@
                 }
 
                 $.ajax({
-                    url: '/Admin/Account/Login',
+                    url: '/APP/Account/Login',
                     type: 'Post',
                     data: {
                         account: data.username,
@@ -198,7 +198,7 @@
                         console.log('接口返回的结果', res);
                         if (res.code == 200) {
                             layer.msg("成功", function () {
-                                window.location = '/Admin/Home/Index';
+                                window.location = '/APP/Home/Index';
                             });
                         }
                         else {

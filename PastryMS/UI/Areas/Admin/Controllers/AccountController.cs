@@ -31,7 +31,7 @@ namespace UI.Areas.Admin.Controllers
         /// <param name="pwd"></param>
         /// <returns></returns>
         [HttpPost]
-        public IActionResult Login(string account, string pwd)
+        public IActionResult Login(string account, string password)
         {
             ReturnResult result = new ReturnResult();
 
@@ -46,7 +46,7 @@ namespace UI.Areas.Admin.Controllers
                 result.Msg = "账号不能为空";
                 return Json(result);
             }
-            if (string.IsNullOrWhiteSpace(pwd))
+            if (string.IsNullOrWhiteSpace(password))
             {
                 result.Msg = "密码不能为空";
                 return Json(result);
@@ -56,7 +56,7 @@ namespace UI.Areas.Admin.Controllers
             string staffName;
             string staffId;
             //调用  登录 业务逻辑
-            bool isSuccess = _staffInfoBLL.Login(account, pwd, out msg, out staffName, out staffId);
+            bool isSuccess = _staffInfoBLL.Login(account, password, out msg, out staffName, out staffId);
             //把提示 消息赋值给结果对象msg属性
             result.Msg = msg;
 
@@ -79,8 +79,8 @@ namespace UI.Areas.Admin.Controllers
 
 
                 //Session
-                HttpContext.Session.SetString("StaffId", staffId);
-                HttpContext.Session.SetString("StaffName", staffName);
+                HttpContext.Session.SetString("UserId", staffId);
+                HttpContext.Session.SetString("UserName", staffName);
 
                 //HttpContext.Session.GetString(userid);
                 //HttpContext.Session.GetString(username);
@@ -89,8 +89,8 @@ namespace UI.Areas.Admin.Controllers
                 CookieOptions options = new CookieOptions();
                 options.Expires = DateTime.Now.AddDays(2);
 
-                Response.Cookies.Append("StaffId", staffId);
-                Response.Cookies.Append("StaffName", staffName);
+                Response.Cookies.Append("UserId", staffId);
+                Response.Cookies.Append("UserName", staffName);
 
                 return Json(result);
             }

@@ -25,7 +25,6 @@ namespace UI.Areas.APP.Controllers
         }
 
         [HttpPost]
-
         public IActionResult Login(string account, string password)
         {
             ReturnResult result = new ReturnResult();

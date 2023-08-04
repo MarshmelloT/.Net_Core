@@ -22,6 +22,8 @@ namespace BLL
             _dbContext = dbContext;
             _dessertInfoDAL = dessertInfoDAL;
         }
+
+        //购买商品
         public bool BuyDessertInfo(DessertInfo entity, out string msg)
         {
             throw new NotImplementedException();

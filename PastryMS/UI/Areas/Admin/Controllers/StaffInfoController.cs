@@ -26,17 +26,25 @@ namespace UI.Areas.Admin.Controllers
         }
         #endregion
 
-
         #region 视图显示
-        public IActionResult Index()
+        public IActionResult ListView()
         {
             return View();
         }
-        #endregion
 
+		public IActionResult CreateStaffInfoView()
+		{
+			return View();
+		}
 
-        #region 查询
-        [HttpGet]
+		public IActionResult UpdateStaffInfoView()
+		{
+			return View();
+		}
+		#endregion
+
+		#region 查询
+		[HttpGet]
         public IActionResult GetStaffInfos(int page, int limit, string account, string staffName)
         {
             //数据总条数

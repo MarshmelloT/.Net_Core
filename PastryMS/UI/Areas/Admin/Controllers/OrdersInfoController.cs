@@ -131,7 +131,6 @@ namespace UI.Areas.Admin.Controllers
         #endregion
 
         #region 更新的方法
-<<<<<<< HEAD
         //[HttpPost]
         //public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
         //{
@@ -151,8 +150,6 @@ namespace UI.Areas.Admin.Controllers
         #endregion
 
         #region 更新的方法
-=======
->>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
         //[HttpPost]
         //public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
         //{

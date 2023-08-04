@@ -32,6 +32,7 @@ namespace Models.DTO
         public DateTime  CreateTime { get; set; }
         public string  PhoneNum { get; set; }
         public string  Email { get; set; }
+        public string StaffName { get; set; }
 
 
     }

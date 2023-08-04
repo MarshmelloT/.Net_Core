@@ -112,7 +112,7 @@
                     //}
                     var parentSelect = res.data.selectOption.parentSelect;
                     for (var i = 0; i < parentSelect.length; i++) {
-                        $('#parentSelect').append('<Option value="' + parentSelect[i].value + '">' + parentSelect[i].title + '</Option>');
+                        $('#parentSelect').append('<Option value="' + parentSelect[i].value + '" selected>' + parentSelect[i].title + '</Option>');
                     }
                     form.render('select');
 

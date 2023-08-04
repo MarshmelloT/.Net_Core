@@ -25,10 +25,10 @@ namespace BLL
         #endregion
 
         #region 登录()
-        public bool Login(string account, string pwd, out string msg, out string staffName, out string staffId)
+        public bool Login(string account, string password, out string msg, out string staffName, out string staffId)
         {
             //把密码加密为MD5
-            string newPwd = MD5Help.GenerateMD5(pwd);
+            string newPwd = MD5Help.GenerateMD5(password);
             //根据账号密码查询用户
             StaffInfo staffInfo = _staffInfoDAL.GetStaffInfos().FirstOrDefault(u => u.Account == account && u.Pwd == newPwd);
 
@@ -62,6 +62,7 @@ namespace BLL
                        {
                            Id = m.Id,
                            Account = m.Account,
+                           Description = m.Description,
                            StaffName = m.StaffName,
                            LeaderId = m.LeaderId,
                            CreateTime = m.CreateTime == null ? DateTime.Now : m.CreateTime,
@@ -189,11 +190,7 @@ namespace BLL
                 msg = "姓名不能为空";
                 return false;
             }
-            if (string.IsNullOrWhiteSpace(staffInfo.LeaderId))
-            {
-                msg = "主管id不能为空";
-                return false;
-            }
+           
             StaffInfo entity = _staffInfoDAL.GetEntityById(staffInfo.Id);
             if (entity == null)
             {
@@ -212,6 +209,7 @@ namespace BLL
             entity.Account = staffInfo.Account;
             entity.StaffName = staffInfo.StaffName;
             entity.LeaderId = staffInfo.LeaderId;
+            entity.Description=staffInfo.Description;
             //用户的密码,如果传进来的是null或""字符串就使用原来的密码.否则就拿新密码MD5加密使用新密码
             entity.Pwd = string.IsNullOrWhiteSpace(staffInfo.Pwd) ? entity.Pwd : MD5Help.GenerateMD5(staffInfo.Pwd);
 
@@ -219,6 +217,20 @@ namespace BLL
             msg = isOK ? "修改用户成功" : "修改用户失败";
             return isOK;
         }
-        #endregion
-    }
+		#endregion
+
+		public List<GetStaffInfoDTO> GetStaffInfoDTO()
+		{
+			List<GetStaffInfoDTO> userlist = _staffInfoDAL.GetEntities()
+													  .Where(x => x.IsDeleted == false)
+													  .Select(x => new GetStaffInfoDTO
+													  {
+														  Id = x.Id,
+														  StaffName = x.StaffName,
+													  })
+													  .ToList();
+
+			return userlist;
+		}
+	}
 }

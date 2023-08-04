@@ -211,7 +211,7 @@ namespace BLL
                                                       {
                                                           Id = x.Id,
                                                           CustomerName = x.CustomerName,
-                                                      })
+													  })
                                                       .ToList();
 
             return userlist;
