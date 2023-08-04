@@ -60,6 +60,7 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
               "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj"
@@ -80,6 +81,10 @@
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj"
 >>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+=======
+              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj"
+>>>>>>> Stashed changes
               },
               "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
@@ -87,7 +92,10 @@
               "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
               },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
               "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
                 "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj"
 =======

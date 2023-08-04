@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   "dgSpecHash": "EUEATw+Qwo89fiGG979uPOr0CRjIMrIZ8G7cZjZeI206L+DSMjUssnrfecP8Pdn5JrOsZxHoRvG/dnVKx5mfow==",
 =======
@@ -109,6 +110,9 @@
 =======
   "dgSpecHash": "pm4L1KEVdicdVLcCxb6Ba84l9xw6xP1U1m+yXJ93pkcMgmOxv5pjIo1CBN7nBwmHOh1b37czZ3O9rVPIeuWx8A==",
 >>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+=======
+  "dgSpecHash": "Q+DTtqhjDeApY/XJ0zGhINuIDhwqy2e7caHQPMUxRDHaF5AmB/66h4Qj4v3eP6kFyiSUIgOggF/4Qdscammveg==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj",
   "expectedPackageFiles": [
@@ -212,6 +216,7 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
+<<<<<<< Updated upstream
   "logs": []
 =======
     "C:\\Users\\marshmallo\\.nuget\\packages\\castle.core\\5.1.0\\castle.core.5.1.0.nupkg.sha512",
@@ -314,11 +319,14 @@
     "C:\\Users\\marshmallo\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
 >>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
   ],
+=======
+>>>>>>> Stashed changes
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "message": "读取缓存文件 C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'expectedPackageFiles', line 106, position 0."
 =======
@@ -327,4 +335,9 @@
     }
   ]
 >>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+=======
+      "message": "读取缓存文件 C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> Stashed changes
 }

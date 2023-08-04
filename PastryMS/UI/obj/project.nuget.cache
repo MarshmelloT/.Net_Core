@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   "dgSpecHash": "6ooSi/gYsmJjcGiLET+YO5ISW0UtufR4DVraEdjqZErDZutZJQAQZbx0iojNGBC6w+5maN8Z52LaH7CEdx+d0g==",
 =======
@@ -194,6 +195,9 @@
 =======
   "dgSpecHash": "S8BKRu/s13YhuoNcbz5GtDEI30hvPSC3mqJ6So5WEnClnWA286Dkwwo3FOdc5K28EXPKReml0IBJO/yA5txxwQ==",
 >>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+=======
+  "dgSpecHash": "eaV8gbxJjBoRIo+CpIOJYOsJ5/ddJuMEZ8++k+fod0GUNm6w2257zie8C18QeRr5+e1n7woYXp15HTpRe0ewFw==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj",
   "expectedPackageFiles": [

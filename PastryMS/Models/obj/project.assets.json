@@ -5979,6 +5979,7 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< Updated upstream
   }
 =======
 <<<<<<< HEAD
@@ -5988,12 +5989,15 @@
 >>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
       }
     }
+=======
+>>>>>>> Stashed changes
   },
   "logs": [
     {
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "message": "读取缓存文件 C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'expectedPackageFiles', line 106, position 0."
 =======
@@ -6002,4 +6006,9 @@
     }
   ]
 >>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+=======
+      "message": "读取缓存文件 C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> Stashed changes
 }

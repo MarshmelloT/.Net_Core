@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< Updated upstream
 <<<<<<< HEAD
   "dgSpecHash": "YINsFTQLdoVEL3RO1Qz/Oy5+YM8M2N31Z7QTTjKKp9xF17HNIWIx5/JKSBru7cyDoQVDaWD+4+SghDzFolU4lw==",
 =======
@@ -118,6 +119,9 @@
 =======
   "dgSpecHash": "gTI2pA03iydqcsydyKVhFaEEIuHD5tXr9kq592w4QFdxLJfkx0QzxhX5bUpP8rV1g4gTNARhWUGsmWlIIEMmhQ==",
 >>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+=======
+  "dgSpecHash": "h3bDWfy1K1yx60tK17e70xQHysgKPyktOfLyXvYlwq1+0/qnu1WiXyJb/Te4OEKLHUUC2ZyFHczf8QFuze844w==",
+>>>>>>> Stashed changes
   "success": true,
   "projectFilePath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
   "expectedPackageFiles": [
@@ -220,6 +224,17 @@
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Administrator\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
+<<<<<<< Updated upstream
   "logs": []
 >>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
+=======
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "读取缓存文件 C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> Stashed changes
 }
