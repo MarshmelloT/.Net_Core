@@ -6782,16 +6782,11 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
       "projectName": "BLL",
       "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
@@ -6800,16 +6795,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
-      "projectName": "BLL",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6823,13 +6808,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-<<<<<<< HEAD
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj"
-=======
-            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj"
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
             },
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
@@ -6837,13 +6817,8 @@
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
             },
-<<<<<<< HEAD
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj"
-=======
-            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj"
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
             }
           }
         }
@@ -6879,23 +6854,8 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-      }
-    }
   }
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
 }

@@ -9740,25 +9740,22 @@
     ".NETCoreApp,Version=v3.1": [
       "BLL >= 1.0.0",
       "DAL >= 1.0.0",
+      "IBLL >= 1.0.0",
       "IDAL >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 3.1.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "Models >= 1.0.0",
       "common >= 1.0.0"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
       "projectName": "UI",
       "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
@@ -9767,16 +9764,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj",
-      "projectName": "UI",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9784,24 +9771,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
         "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-=======
-        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-<<<<<<< HEAD
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
-=======
-            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
             },
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj"
@@ -9809,13 +9787,14 @@
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj"
             },
-<<<<<<< HEAD
+            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
+              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
+            },
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-=======
-            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+            },
+            "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
+              "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj"
             }
           }
         }
@@ -9868,23 +9847,8 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-      }
-    }
   }
->>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
 }
