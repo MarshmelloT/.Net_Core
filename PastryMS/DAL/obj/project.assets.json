@@ -5931,52 +5931,19 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\22973\\.nuget\\packages\\": {},
-    "D:\\vsss\\NuGetPackages": {}
-=======
     "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\obj\\",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-      "projectName": "DAL",
-      "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\obj\\",
-=======
       "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
       "projectName": "DAL",
       "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
       "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
         "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5990,27 +5957,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-<<<<<<< HEAD
-            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
-            },
-            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-=======
-<<<<<<< HEAD
-            "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-              "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
-            },
-            "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-              "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-=======
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
             },
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
             }
           }
         }
@@ -6040,11 +5991,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -6053,14 +6000,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "读取缓存文件 C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'expectedPackageFiles', line 106, position 0."
+      "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
-      }
-    }
-  }
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
 }

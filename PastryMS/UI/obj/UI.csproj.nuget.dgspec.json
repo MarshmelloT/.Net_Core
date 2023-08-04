@@ -1,52 +1,20 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\UI.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
-        "projectName": "BLL",
-        "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\obj\\",
-=======
     "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj": {}
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
         "projectName": "BLL",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -60,41 +28,17 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj"
-=======
-<<<<<<< HEAD
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj"
-              },
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
-              },
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-              },
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj"
-=======
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
               },
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
+              "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
+                "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
               },
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+              "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+                "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
               },
-<<<<<<< HEAD
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj"
-=======
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
               }
             }
           }
@@ -130,54 +74,21 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
-        "projectName": "common",
-        "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
-        "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
         "projectName": "common",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,54 +129,21 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-        "projectName": "DAL",
-        "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\obj\\",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
         "projectName": "DAL",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -279,27 +157,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
-              },
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-=======
-<<<<<<< HEAD
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
-              },
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-=======
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj"
               },
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
               }
             }
           }
@@ -329,54 +191,21 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
-        "projectName": "IBLL",
-        "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
-        "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IBLL\\obj\\",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
         "projectName": "IBLL",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IBLL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\IBLL.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IBLL\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -390,18 +219,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj"
-=======
-<<<<<<< HEAD
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj"
-=======
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
               }
             }
           }
@@ -431,54 +250,21 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
-        "projectName": "IDAL",
-        "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
-        "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\obj\\",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
         "projectName": "IDAL",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -492,18 +278,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj"
-=======
-<<<<<<< HEAD
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj"
-=======
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
               }
             }
           }
@@ -539,54 +315,21 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\Models\\obj\\",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj",
         "projectName": "Models",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\Models.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\Models\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -641,54 +384,21 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\UI.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\UI.csproj",
-        "projectName": "UI",
-        "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\obj\\",
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj": {
+    "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj",
+        "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
         "projectName": "UI",
-<<<<<<< HEAD
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
         "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
         "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
         "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
           "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -696,55 +406,24 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
-=======
-<<<<<<< HEAD
-=======
           "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-<<<<<<< HEAD
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
-=======
-<<<<<<< HEAD
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
-              },
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj"
-              },
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj"
-              },
-              "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-                "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-=======
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
               },
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj"
+              "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj": {
+                "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj"
               },
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\DAL\\DAL.csproj"
+              "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
+                "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\DAL\\DAL.csproj"
               },
-<<<<<<< HEAD
-              "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
-=======
               "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
                 "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
               }
             }
           }
@@ -797,15 +476,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-=======
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
         }
       }
     }

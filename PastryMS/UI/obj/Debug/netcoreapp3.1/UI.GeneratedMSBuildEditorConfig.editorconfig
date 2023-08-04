@@ -1,7 +1,3 @@
 is_global = true
 build_property.RootNamespace = UI
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\Administrator\Desktop\.Net_Core\PastryMS\UI\
-=======
-build_property.ProjectDir = C:\Users\22973\Documents\GitHub\.Net_Core\PastryMS\UI\
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+build_property.ProjectDir = D:\code\实训项目\.Net_Core\PastryMS\UI\
