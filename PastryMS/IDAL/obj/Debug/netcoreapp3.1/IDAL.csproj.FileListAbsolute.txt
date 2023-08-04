@@ -24,6 +24,21 @@ F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.
 F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CopyComplete
 F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.dll
 F:\NET实训课\Git\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.pdb
+<<<<<<< HEAD
+D:\8-3\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.deps.json
+D:\8-3\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.dll
+D:\8-3\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.pdb
+D:\8-3\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\Models.dll
+D:\8-3\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.AssemblyReference.cache
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.AssemblyInfoInputs.cache
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.AssemblyInfo.cs
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CoreCompileInputs.cache
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CopyComplete
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.dll
+D:\8-3\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.pdb
+=======
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.deps.json
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.dll
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IDAL\bin\Debug\netcoreapp3.1\IDAL.pdb
@@ -50,3 +65,4 @@ D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj
 D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.csproj.CopyComplete
 D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.dll
 D:\code\实训项目\.Net_Core\PastryMS\IDAL\obj\Debug\netcoreapp3.1\IDAL.pdb
+>>>>>>> db8ba65d03e2c250c2db62428fdff36e00e5e0f8

@@ -1,0 +1,151 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>layui</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="~/layuimini/lib/layui-v2.6.3/css/layui.css" media="all">
+    <link rel="stylesheet" href="~/layuimini/css/public.css" media="all">
+    <style>
+        body {
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="layui-form layuimini-form" lay-filter="formTest">
+        <div class="layui-form-item">
+            <label class="layui-form-label required">员工账号</label>
+            <div class="layui-input-block">
+                <input type="text" name="account" lay-verify="required" lay-reqtext="账号不能为空" placeholder="请输入账号" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label required">用户密码</label>
+            <div class="layui-input-block">
+                <input type="text" name="pwd" lay-verify="required" lay-reqtext="密码不能为空" placeholder="请输入密码" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label required">员工姓名</label>
+            <div class="layui-input-block">
+                <input type="text" name="staffName" lay-verify="required" lay-reqtext="姓名不能为空" placeholder="请输入姓名" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label ">描述</label>
+            <div class="layui-input-block">
+                <input type="text" name="description" placeholder="请输入描述" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label">主管Id</label>
+            <div class="layui-input-block">
+                <select name="leaderId" id="parentSelect">
+                    <option value=""></option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <div class="layui-input-block">
+                <button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">确认保存</button>
+            </div>
+        </div>
+    </div>
+    <script src="~/layuimini/lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
+    <script>
+		//
+		var parentData;
+		let form;
+		//获取父级页面的回调方法
+		function getData(data) {
+			parentData = data;
+			console.log("父级传递的数据", parentData);
+			//使用form表单模块赋值
+			form.val("formTest", {
+				"account": parentData.account,
+				"passWord": "",
+				"userName": parentData.userName,
+				"phoneNum": parentData.phoneNum,
+				"email": parentData.email,
+				"departmentId": parentData.departmentId,
+				"sex": parentData.sex,
+			});
+		}
+
+		layui.use(['form'], function () {
+			var layer = layui.layer,
+				$ = layui.$;
+
+			form = layui.form;
+
+			//获取列表页面传递的Id
+			var id = window.location.search.substr(4);
+			//console.log(id);
+
+
+			//通过Ajax去获取下拉列表数据进行渲染
+			$.ajax({
+                url: '/StaffInfo/GetSelectOptions',
+				type: "get",
+				success: function (res) {
+					console.log("接口返回的结果", res);
+					//父级部门数据
+					var parentSelect = res.data.parentSelect;
+					for (var i = 0; i < parentSelect.length; i++) {
+						$("#parentSelect").append('<option value="' + parentSelect[i].value + '">' + parentSelect[i].title + '</option>');
+					}
+					//调用form重写渲染select
+					form.render('select');
+
+					//绑定编辑的表单信息
+					form.val("formTest", {
+						"departmentId": parentData.departmentId,
+
+					});
+				}
+			});
+
+			//监听提交
+			form.on('submit(saveBtn)', function (data) {
+				data.field.id = parentData.id;//赋值id
+
+				//$.ajax
+				$.ajax({
+                    url: '/StaffInfo/UpdateStaffInfo',
+					type: 'Post',
+					data: data.field,
+					success: function (res) {
+						if (res.code == 200) {
+							var index = layer.alert(res.msg, {
+								title: '修改结果',
+							}, function () {
+
+								// 关闭弹出层
+								layer.close(index);
+
+								var iframeIndex = parent.layer.getFrameIndex(window.name);
+								parent.layer.close(iframeIndex);
+								parent.location.reload();//重载
+							});
+
+						} else {
+							layer.alert(res.msg);
+						}
+					}
+				});
+
+				return false;
+			});
+
+		});
+    </script>
+</body>
+</html>

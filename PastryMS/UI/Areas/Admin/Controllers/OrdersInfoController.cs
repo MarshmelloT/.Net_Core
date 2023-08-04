@@ -57,7 +57,27 @@ namespace UI.Areas.Admin.Controllers
 
         #endregion
 
-<<<<<<< HEAD
+        #region 添加客户订单信息的方法(CreateOrdersInfo)
+        [HttpPost]
+        public ActionResult CreateOrdersInfo(OrdersInfo entity, out string msg)
+        {
+            //调用添加角色的方法
+            bool IsSuccess = _ordersInfoBLL.CreateOrdersInfo(entity, out msg);
+            //返回结果封装
+            ReturnResult result = new ReturnResult();
+            result.Msg = msg;
+            result.IsSuccess = IsSuccess;
+
+            //判断是否成功
+            if (IsSuccess)
+            {
+                result.Code = 200;
+            }
+            return Json(result);
+        }
+
+        #endregion
+
         #region 添加客户订单信息的方法(CreateOrdersInfo)
         //[HttpPost]
         //public ActionResult CreateOrdersInfo([FromForm]OrdersInfo entity, out string msg)
@@ -79,8 +99,6 @@ namespace UI.Areas.Admin.Controllers
 
         #endregion
 
-=======
->>>>>>> 95409f66ef5300c20f14f6fc70dce105ff133a3d
         #region 软删除的方法(DeleteOrdersInfo)
         [HttpPost]
         public ActionResult DeleteOrdersInfo(string id)
@@ -133,7 +151,25 @@ namespace UI.Areas.Admin.Controllers
             return Json(result);
         }
         #endregion
-<<<<<<< HEAD
+
+        #region 更新的方法
+        [HttpPost]
+        public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
+        {
+            //实例化返回对象
+            ReturnResult result = new ReturnResult();
+            //调用方法
+            bool isOk = _ordersInfoBLL.UpdateOrdersInfo(ordersInfo, out msg);
+            result.Msg = msg;
+            //判断是否成功
+            if (isOk)
+            {
+                result.Code = 200;
+                result.IsSuccess = isOk;
+            }
+            return Json(result);//返回结果
+        }
+        #endregion
 
         #region 更新的方法
         //[HttpPost]
@@ -153,7 +189,5 @@ namespace UI.Areas.Admin.Controllers
         //    return Json(result); ;//返回结果
         //}
         #endregion
-=======
->>>>>>> 95409f66ef5300c20f14f6fc70dce105ff133a3d
     }
 }

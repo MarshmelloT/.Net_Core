@@ -13,20 +13,25 @@ namespace UI.Areas.Admin.Controllers
     public class AccountController : Controller
     {
         private PastryMSDB _dbContext;
-        private ICustomerInfoBLL _CustomerInfoBLL;
-        public AccountController(PastryMSDB dbContext, ICustomerInfoBLL CustomerInfoBLL)
+        private IStaffInfoBLL _staffInfoBLL;//员工信息表
+        public AccountController(PastryMSDB dbContext, IStaffInfoBLL staffInfoBLL)
         {
             _dbContext = dbContext;
-            _CustomerInfoBLL = CustomerInfoBLL;
+            _staffInfoBLL = staffInfoBLL;
         }
         public IActionResult LoginView()
         {
             return View();
         }
 
+        /// <summary>
+        /// 员工登录
+        /// </summary>
+        /// <param name="account"></param>
+        /// <param name="pwd"></param>
+        /// <returns></returns>
         [HttpPost]
-
-        public IActionResult Login(string account, string password)
+        public IActionResult Login(string account, string pwd)
         {
             ReturnResult result = new ReturnResult();
 
@@ -41,17 +46,17 @@ namespace UI.Areas.Admin.Controllers
                 result.Msg = "账号不能为空";
                 return Json(result);
             }
-            if (string.IsNullOrWhiteSpace(password))
+            if (string.IsNullOrWhiteSpace(pwd))
             {
                 result.Msg = "密码不能为空";
                 return Json(result);
             }
 
             string msg;
-            string customerName;
-            string customerid;
+            string staffName;
+            string staffId;
             //调用  登录 业务逻辑
-            bool isSuccess = _CustomerInfoBLL.Login(account, password, out msg, out customerName, out customerid);
+            bool isSuccess = _staffInfoBLL.Login(account, pwd, out msg, out staffName, out staffId);
             //把提示 消息赋值给结果对象msg属性
             result.Msg = msg;
 
@@ -59,7 +64,7 @@ namespace UI.Areas.Admin.Controllers
             {
                 result.IsSuccess = isSuccess;
                 result.Code = 200;
-                result.Data = customerName;
+                result.Data = staffName;
                 //把信息存到Session
                 //HttpContext.Session["UserName"] = username;
                 //HttpContext.Session["UserId"] = userid;
@@ -74,8 +79,8 @@ namespace UI.Areas.Admin.Controllers
 
 
                 //Session
-                HttpContext.Session.SetString("UserId", customerid);
-                HttpContext.Session.SetString("UserName", customerName);
+                HttpContext.Session.SetString("StaffId", staffId);
+                HttpContext.Session.SetString("StaffName", staffName);
 
                 //HttpContext.Session.GetString(userid);
                 //HttpContext.Session.GetString(username);
@@ -84,8 +89,8 @@ namespace UI.Areas.Admin.Controllers
                 CookieOptions options = new CookieOptions();
                 options.Expires = DateTime.Now.AddDays(2);
 
-                Response.Cookies.Append("UserId", customerid);
-                Response.Cookies.Append("UserName", customerName);
+                Response.Cookies.Append("StaffId", staffId);
+                Response.Cookies.Append("StaffName", staffName);
 
                 return Json(result);
             }

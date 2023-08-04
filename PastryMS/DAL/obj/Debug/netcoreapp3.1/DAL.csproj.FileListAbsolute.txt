@@ -32,6 +32,25 @@ F:\NET实训课\Git\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.Co
 F:\NET实训课\Git\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
 F:\NET实训课\Git\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 F:\NET实训课\Git\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+<<<<<<< HEAD
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\IBLL.dll
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\IDAL.dll
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\Models.dll
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\IBLL.pdb
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\IDAL.pdb
+D:\8-3\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+D:\8-3\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+=======
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\DAL.dll
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
@@ -66,3 +85,4 @@ D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.C
 D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
 D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.dll
 D:\code\实训项目\.Net_Core\PastryMS\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+>>>>>>> db8ba65d03e2c250c2db62428fdff36e00e5e0f8
