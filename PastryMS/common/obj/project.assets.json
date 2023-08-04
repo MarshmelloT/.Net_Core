@@ -8,23 +8,40 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
 =======
     "C:\\Users\\Administrator\\.nuget\\packages\\": {}
 >>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+    "C:\\Users\\22973\\.nuget\\packages\\": {},
+    "D:\\vsss\\NuGetPackages": {}
+>>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< Updated upstream
 <<<<<<< HEAD
       "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
       "projectName": "common",
       "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
       "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
       "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "projectName": "common",
+      "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\",
+>>>>>>> Stashed changes
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\vsss\\NuGetPackages"
+      ],
       "configFilePaths": [
+<<<<<<< Updated upstream
         "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
       "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj",
@@ -36,6 +53,10 @@
       "configFilePaths": [
         "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+        "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> Stashed changes
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -76,8 +97,12 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< Updated upstream
 <<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
       }
     }
   },
@@ -86,7 +111,11 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
+<<<<<<< Updated upstream
       "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+=======
+      "message": "读取缓存文件 C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+>>>>>>> Stashed changes
     }
   ]
 =======

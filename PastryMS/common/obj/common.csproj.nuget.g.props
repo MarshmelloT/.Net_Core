@@ -5,19 +5,28 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\marshmallo\.nuget\packages\</NuGetPackageFolders>
 =======
     <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Administrator\.nuget\packages\</NuGetPackageFolders>
 >>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\22973\.nuget\packages\;D:\vsss\NuGetPackages</NuGetPackageFolders>
+>>>>>>> Stashed changes
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.6.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     <SourceRoot Include="C:\Users\marshmallo\.nuget\packages\" />
 =======
     <SourceRoot Include="C:\Users\Administrator\.nuget\packages\" />
 >>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+    <SourceRoot Include="C:\Users\22973\.nuget\packages\" />
+    <SourceRoot Include="D:\vsss\NuGetPackages\" />
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

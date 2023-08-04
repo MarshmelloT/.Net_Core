@@ -1,3 +1,7 @@
 is_global = true
 build_property.RootNamespace = BLL
+<<<<<<< Updated upstream
 build_property.ProjectDir = D:\code\实训项目\.Net_Core\PastryMS\BLL\
+=======
+build_property.ProjectDir = C:\Users\22973\Documents\GitHub\.Net_Core\PastryMS\BLL\
+>>>>>>> Stashed changes
