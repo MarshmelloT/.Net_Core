@@ -9751,19 +9751,65 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+>>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+    "C:\\Users\\22973\\.nuget\\packages\\": {},
+    "D:\\vsss\\NuGetPackages": {}
+>>>>>>> Stashed changes
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
       "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
       "projectName": "UI",
       "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\UI.csproj",
       "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
       "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\UI.csproj",
+      "projectName": "UI",
+      "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\obj\\",
+>>>>>>> Stashed changes
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\vsss\\NuGetPackages"
+      ],
+      "configFilePaths": [
+<<<<<<< Updated upstream
+        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+=======
+=======
+      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj",
+      "projectName": "UI",
+      "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\UI.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+        "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> Stashed changes
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9771,13 +9817,29 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
         "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+        "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+=======
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+>>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+>>>>>>> Stashed changes
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
             },
@@ -9792,9 +9854,29 @@
             },
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+<<<<<<< HEAD
             },
             "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj": {
               "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\Models\\Models.csproj"
+=======
+=======
+            "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+              "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+>>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+            "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\BLL\\BLL.csproj"
+            },
+            "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj": {
+              "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj"
+            },
+            "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj": {
+              "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\DAL\\DAL.csproj"
+            },
+            "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj": {
+              "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\IDAL\\IDAL.csproj"
+>>>>>>> Stashed changes
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
             }
           }
         }
@@ -9847,8 +9929,40 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
+=======
+<<<<<<< Updated upstream
+<<<<<<< HEAD
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+>>>>>>> Stashed changes
+      }
+    }
+<<<<<<< HEAD
+  }
+=======
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+<<<<<<< Updated upstream
+      "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\UI\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
+>>>>>>> 9e4e04184b10c5f73d5ccabea2f859548db7ad6e
+=======
+      "message": "读取缓存文件 C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\UI\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
+>>>>>>> Stashed changes
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
 }

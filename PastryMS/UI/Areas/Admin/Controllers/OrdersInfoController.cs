@@ -58,7 +58,7 @@ namespace UI.Areas.Admin.Controllers
 
         #region 添加客户订单信息的方法(CreateOrdersInfo)
         //[HttpPost]
-        //public ActionResult CreateOrdersInfo([FromForm]OrdersInfo entity, out string msg)
+        //public ActionResult CreateOrdersInfo(OrdersInfo entity, out string msg)
         //{
         //    //调用添加角色的方法
         //    bool IsSuccess = _ordersInfoBLL.CreateOrdersInfo(entity, out msg);
@@ -131,6 +131,7 @@ namespace UI.Areas.Admin.Controllers
         #endregion
 
         #region 更新的方法
+<<<<<<< HEAD
         //[HttpPost]
         //public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
         //{
@@ -150,8 +151,10 @@ namespace UI.Areas.Admin.Controllers
         #endregion
 
         #region 更新的方法
+=======
+>>>>>>> 92f83aa7dee419533f57bed8fdff102105df119b
         //[HttpPost]
-        //public ActionResult UpdateOrdersInfo([FromForm]OrdersInfo ordersInfo, out string msg)
+        //public ActionResult UpdateOrdersInfo(OrdersInfo ordersInfo, out string msg)
         //{
         //    //实例化返回对象
         //    ReturnResult result = new ReturnResult();
@@ -164,8 +167,9 @@ namespace UI.Areas.Admin.Controllers
         //        result.Code = 200;
         //        result.IsSuccess = isOk;
         //    }
-        //    return Json(result); ;//返回结果
+        //    return Json(result);//返回结果
         //}
         #endregion
+
     }
 }
