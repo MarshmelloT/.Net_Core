@@ -8,52 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\22973\\.nuget\\packages\\": {},
-    "D:\\vsss\\NuGetPackages": {}
-=======
-    "C:\\Users\\marshmallo\\.nuget\\packages\\": {}
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+    "C:\\Users\\abc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "projectUniqueName": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
       "projectName": "common",
-      "projectPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\common.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Desktop\\.Net_Core\\PastryMS\\common\\obj\\",
+      "projectPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
+      "packagesPath": "C:\\Users\\abc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
-      "projectName": "common",
-      "projectPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\common.csproj",
-      "packagesPath": "C:\\Users\\22973\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\",
-=======
-      "projectUniqueName": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
-      "projectName": "common",
-      "projectPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\common.csproj",
-      "packagesPath": "C:\\Users\\marshmallo\\.nuget\\packages\\",
-      "outputPath": "D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-<<<<<<< HEAD
-        "C:\\Users\\22973\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-        "C:\\Users\\marshmallo\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
+        "C:\\Users\\abc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -84,8 +51,7 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -94,17 +60,7 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
-      }
-    }
-  }
-=======
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -113,12 +69,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-<<<<<<< HEAD
-      "message": "读取缓存文件 C:\\Users\\22973\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'expectedPackageFiles', line 7, position 0."
-=======
-      "message": "读取缓存文件 D:\\code\\实训项目\\.Net_Core\\PastryMS\\common\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
->>>>>>> 08dc583c844671dd6fdcfa922daffa02d97a581b
+      "message": "读取缓存文件 C:\\Users\\abc\\Documents\\GitHub\\.Net_Core\\PastryMS\\common\\obj\\project.nuget.cache 时遇到问题: Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
->>>>>>> 32a9a3ec18a0e393ca5fc40e50cdeda5e96bf9c6
 }

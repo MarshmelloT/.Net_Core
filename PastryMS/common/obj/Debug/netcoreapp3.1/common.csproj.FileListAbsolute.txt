@@ -8,16 +8,6 @@ C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
-D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.deps.json
-D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.dll
-D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.pdb
-D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.AssemblyReference.cache
-D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.GeneratedMSBuildEditorConfig.editorconfig
-D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfoInputs.cache
-D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfo.cs
-D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
-D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
-D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
 F:\NET实训课\Git\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.deps.json
 F:\NET实训课\Git\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.dll
 F:\NET实训课\Git\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.pdb
@@ -28,6 +18,18 @@ F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.Ass
 F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
 F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
 F:\NET实训课\Git\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
+<<<<<<< HEAD
+D:\8-3\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.deps.json
+D:\8-3\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.dll
+D:\8-3\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.pdb
+D:\8-3\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.AssemblyReference.cache
+D:\8-3\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.GeneratedMSBuildEditorConfig.editorconfig
+D:\8-3\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfoInputs.cache
+D:\8-3\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfo.cs
+D:\8-3\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
+D:\8-3\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
+D:\8-3\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
+=======
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.deps.json
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.dll
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.pdb
@@ -38,3 +40,14 @@ D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\obj\Debug\netcoreap
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
+D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.deps.json
+D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.dll
+D:\code\实训项目\.Net_Core\PastryMS\common\bin\Debug\netcoreapp3.1\common.pdb
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.csproj.CoreCompileInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.dll
+D:\code\实训项目\.Net_Core\PastryMS\common\obj\Debug\netcoreapp3.1\common.pdb
+>>>>>>> db8ba65d03e2c250c2db62428fdff36e00e5e0f8

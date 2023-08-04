@@ -8,7 +8,7 @@ using Models;
 
 namespace UI.Areas.APP.Controllers
 {
-    [Area("Admin")]
+    [Area("APP")]
     public class CustomerInfoController : Controller
     {
         private PastryMSDB _dbContext;

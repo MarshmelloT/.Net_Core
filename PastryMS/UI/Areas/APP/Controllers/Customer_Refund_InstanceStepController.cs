@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace UI.Areas.APP.Controllers
 {
+    [Area("APP")]
+
     public class Customer_Refund_InstanceStepController : Controller
     {
         public IActionResult Index()

@@ -17,10 +17,32 @@
 <body>
     <div class="layui-form layuimini-form">
         <div class="layui-form-item">
-            <label class="layui-form-label ">标题</label>
+            <label class="layui-form-label required">商品名</label>
             <div class="layui-input-block">
-                <input type="text" name="title" lay-reqtext="角色名称不能为空" placeholder="请输入角色名称" value="" class="layui-input">
-                <tip>填写用角色名称。</tip>
+                <input type="text" name="dessertName" lay-verify="required" lay-reqtext="商品名不能为空" placeholder="请输入商品名" value="" class="layui-input">
+                <tip>填写商品名。</tip>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label ">商品类别</label>
+            <div class="layui-input-block">
+                <select name="dessertTypeId" id="dessertTypeSelect">
+                    <option value=""></option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label required">价格</label>
+            <div class="layui-input-block">
+                <input type="text" name="price" lay-verify="required" lay-reqtext="价格不能为空" placeholder="请输入价格" value="" class="layui-input">
+                <tip>填写价格。</tip>
+            </div>
+        </div>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label ">剩余数量</label>
+            <div class="layui-input-block">
+                <input type="text" name="num" value="" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
@@ -30,41 +52,9 @@
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label ">等级</label>
+            <label class="layui-form-label ">添加时间</label>
             <div class="layui-input-block">
-                <input type="text" name="level" value="" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label ">排序</label>
-            <div class="layui-input-block">
-                <input type="text" name="sort" value="" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label ">访问地址</label>
-            <div class="layui-input-block">
-                <input type="text" name="href" value="" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label ">父级菜单</label>
-            <div class="layui-input-block">
-                <select id="parentSelect" name="parentId" lay-filter="select-filter">
-                    <option value=""></option>
-                </select>
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label ">图标样式</label>
-            <div class="layui-input-block">
-                <input type="text" name="icon" value="" class="layui-input">
-            </div>
-        </div>
-        <div class="layui-form-item">
-            <label class="layui-form-label ">目标</label>
-            <div class="layui-input-block">
-                <input type="text" name="target" value="" class="layui-input">
+                <input type="text" name="createTime" value="" class="layui-input">
             </div>
         </div>
         <div class="layui-form-item">
@@ -81,29 +71,23 @@
                 $ = layui.$;
 
             $.ajax({
-                url: "/Admin/MenuInfo/GetSelectOptions",
+                url: "/Admin/DessertInfo/GetSelectOptions",
                 type: "Get",
                 success: function (res) {
-                    //var leaderSelect = res.data.leaderSelect;
-                    //for (var i = 0; i < leaderSelect.length; i++) {
-                    //    $('#leaderSelect').append('<Option value="' + leaderSelect[i].value + '">' + leaderSelect[i].title + '</Option>');
-                    //}
-                    var parentSelect = res.data.parentSelect;
-                    for (var i = 0; i < parentSelect.length; i++) {
-                        $('#parentSelect').append('<Option value="' + parentSelect[i].value + '">' + parentSelect[i].title + '</Option>');
+
+                    var dessertTypeSelect = res.data.dessertTypeSelect;
+                    for (var i = 0; i < dessertTypeSelect.length; i++) {
+                        $('#dessertTypeSelect').append('<Option value="' + dessertTypeSelect[i].value + '">' + dessertTypeSelect[i].title + '</Option>');
                     }
                     form.render('select');
-
                 }
             })
 
-            //监听提交
             form.on('submit(saveBtn)', function (data) {
                 $.ajax({
-                    url: "/Admin/MenuInfo/CreateMenuInfo",
+                    url: "/Admin/DessertInfo/UpLoadDessertInfo",
                     type: "Post",
-                    data: JSON.stringify(data.field),
-                    contentType: "application/json",
+                    data: data.field,
                     success: function (res) {
                         if (res.code == 200) {
                             var index = layer.alert(res.msg, {
@@ -123,6 +107,7 @@
                 })
                 return false;
             });
+            
 
         });
     </script>

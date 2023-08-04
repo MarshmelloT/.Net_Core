@@ -1,8 +1,3 @@
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.AssemblyReference.cache
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.GeneratedMSBuildEditorConfig.editorconfig
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfoInputs.cache
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfo.cs
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
@@ -16,14 +11,6 @@ C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\I
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
 C:\Users\Administrator\Desktop\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.dll
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.pdb
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
-D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
 F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
 F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
 F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
@@ -37,6 +24,21 @@ F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.
 F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
 F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
 F:\NET实训课\Git\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
+<<<<<<< HEAD
+D:\8-3\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
+D:\8-3\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
+D:\8-3\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
+D:\8-3\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.dll
+D:\8-3\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.AssemblyReference.cache
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfoInputs.cache
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfo.cs
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CoreCompileInputs.cache
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
+D:\8-3\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
+=======
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
@@ -50,3 +52,17 @@ D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
 D:\学习\知识积累\XiaoZuZuoYe\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.deps.json
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.dll
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\IBLL.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.dll
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\bin\Debug\netcoreapp3.1\Models.pdb
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.AssemblyReference.cache
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfoInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.AssemblyInfo.cs
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CoreCompileInputs.cache
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.csproj.CopyComplete
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.dll
+D:\code\实训项目\.Net_Core\PastryMS\IBLL\obj\Debug\netcoreapp3.1\IBLL.pdb
+>>>>>>> db8ba65d03e2c250c2db62428fdff36e00e5e0f8

@@ -18,20 +18,40 @@
 <body>
     <div class="layui-form layuimini-form" lay-filter="formTest">
         <div class="layui-form-item">
-            <label class="layui-form-label ">角色名称</label>
+            <label class="layui-form-label required">商品名</label>
             <div class="layui-input-block">
-                <input type="text" name="roleName" lay-reqtext="角色名称不能为空" placeholder="请输入角色名称" value="" class="layui-input">
-                <tip>填写用角色名称。</tip>
+                <input type="text" name="dessertName" lay-verify="required" lay-reqtext="商品名不能为空" placeholder="请输入商品名" value="" class="layui-input">
+                <tip>填写商品名。</tip>
             </div>
         </div>
         <div class="layui-form-item">
-            <label class="layui-form-label ">角色描述</label>
+            <label class="layui-form-label ">商品类别</label>
             <div class="layui-input-block">
-                <input type="text" name="description"  value="" class="layui-input">
-                <tip>填写用角色名称。</tip>
+                <select name="dessertTypeId" id="dessertTypeSelect">
+                    <option value=""></option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label required">价格</label>
+            <div class="layui-input-block">
+                <input type="text" name="price" lay-verify="required" lay-reqtext="价格不能为空" placeholder="请输入价格" value="" class="layui-input">
+                <tip>填写价格。</tip>
             </div>
         </div>
 
+        <div class="layui-form-item">
+            <label class="layui-form-label ">剩余数量</label>
+            <div class="layui-input-block">
+                <input type="text" name="num" value="" class="layui-input">
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label ">描述</label>
+            <div class="layui-input-block">
+                <input type="text" name="description" value="" class="layui-input">
+            </div>
+        </div>
         <div class="layui-form-item">
             <div class="layui-input-block">
                 <button class="layui-btn layui-btn-normal" lay-submit lay-filter="saveBtn">确认保存</button>
@@ -47,24 +67,43 @@
             parentData = Data;
 
             form.val('formTest', {
-                "roleName": parentData.roleName,
+                "dessertName": parentData.dessertName,
+                "price": parentData.price,
+                "num": parentData.num,
                 "description": parentData.description,
             })
         }
+
+        var id = window.location.search.substr(4);
+
+        $.ajax({
+            url: "/Admin/DessertInfo/GetDessertInfoById",
+            type: "Get",
+            data: {
+                id: id
+            },
+            success: function (res) {
+                var dessertTypeSelect = res.data.dessertType.dessertTypeSelect;
+                for (var i = 0; i < dessertTypeSelect.length; i++) {
+                    $('#dessertTypeSelect').append('<option value="' + dessertTypeSelect[i].value + '">' + dessertTypeSelect[i].title + '</option>');
+                }
+                form.render('select');
+
+                form.val('formTest', {
+                    "dessertTypeId": res.data.dessertInfo.dessertTypeId
+                })
+            }
+        })
+
         layui.use(['form'], function () {
             var layer = layui.layer,
                 $ = layui.$;
             form = layui.form;
 
-           
-            var id = window.location.search.substr(4);
-
-           
-            //监听提交
             form.on('submit(saveBtn)', function (data) {
                 data.field.id = parentData.id;
                 $.ajax({
-                    url: "/Admin/RoleInfo/UpdateRoleInfos",
+                    url: "/Admin/DessertInfo/ReUpLoadDessertInfo",
                     type: "Post",
                     data: data.field,
                     success: function (res) {

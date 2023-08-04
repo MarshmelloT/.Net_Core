@@ -9,7 +9,7 @@ using Castle.Core.Resource;
 
 namespace UI.Areas.APP.Controllers
 {
-    [Area("Admin")]
+    [Area("APP")]
     public class AccountController : Controller
     {
         private PastryMSDB _dbContext;

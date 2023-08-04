@@ -60,24 +60,30 @@ namespace BLL
             return true;
         }
 
+        public DessertInfo GetDessertInfoById(string id)
+        {
+            return _dessertInfoDAL.GetEntityById(id);
+
+        }
+
         public List<GetDessertInfoDTO> getDessertInfos(int page, int limit, string dessertName, string dessertTypeId, out int count)
         {
             var data = from d in _dbContext.DessertInfo
-                       join dt in _dbContext.DessertTypeInfo.Where(dt => dt.IsDeleted == false)
-                       on d.DessertTypeId equals dt.Id
-                       into Tddt
-                       from ddt in Tddt
+                       //join dt in _dbContext.DessertTypeInfo.Where(dt => dt.IsDeleted == false)
+                       //on d.DessertTypeId equals dt.Id
+                       //into Tddt
+                       //from ddt in Tddt
                        select new GetDessertInfoDTO
                        {
                            Id = d.Id,
                            DessertName = d.DessertName,
-                           DessertTypeName = ddt.DessertTypeName,
+                           DessertTypeName = d.DessertName,
                            Price = d.Price,
                            Num = d.Num,
                            Description = d.Description,
                            Image = d.Image,
                            CreateTime = d.CreateTime == null ? DateTime.Now : d.CreateTime,
-
+                           IsDelete = d.IsDeleted
                        };
 
             if (!string.IsNullOrWhiteSpace(dessertName))
@@ -93,6 +99,24 @@ namespace BLL
 
             return listpage;
 
+        }
+
+        public object GetSelectOptions()
+        {
+            var dessertTypeSelect = _dbContext.DessertTypeInfo.Where(d => !d.IsDeleted)
+                                                       .Select(d => new
+                                                       {
+                                                           value = d.Id,
+                                                           title = d.DessertTypeName
+                                                       }).ToList();
+
+
+            var data = new
+            {
+                dessertTypeSelect,
+
+            };
+            return data;
         }
 
         public bool ReUpLoadDessertInfo(DessertInfo dessertInfo, out string msg)
@@ -159,7 +183,7 @@ namespace BLL
                 msg = "商品类型不能为空";
                 return false;
             }
-            if (entity.Price<=0)
+            if (entity.Price <= 0)
             {
                 msg = "价格不能为空";
                 return false;

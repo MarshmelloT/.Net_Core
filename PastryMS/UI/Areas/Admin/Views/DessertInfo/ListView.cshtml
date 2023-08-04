@@ -20,9 +20,17 @@
                         <div class="layui-form-item">
 
                             <div class="layui-inline">
-                                <label class="layui-form-label">标题</label>
+                                <label class="layui-form-label">商品名</label>
                                 <div class="layui-input-inline">
-                                    <input type="text" name="title" autocomplete="off" class="layui-input">
+                                    <input type="text" name="dessertName" autocomplete="off" class="layui-input">
+                                </div>
+                            </div>
+                            <div class="layui-inline">
+                                <label class="layui-form-label">商品类别</label>
+                                <div class="layui-input-inline">
+                                    <select name="dessertTypeId" id="dessertTypeSelect">
+                                        <option value=""></option>
+                                    </select>
                                 </div>
                             </div>
                             <div class="layui-inline">
@@ -35,21 +43,33 @@
 
             <script type="text/html" id="toolbarDemo">
                 <div class="layui-btn-container">
-                    <button class="layui-btn layui-btn-normal layui-btn-sm data-add-btn" lay-event="add"> 添加 </button>
-                    <button class="layui-btn layui-btn-sm layui-btn-danger data-delete-btn" lay-event="delete"> 删除 </button>
+                    <button class="layui-btn layui-btn-normal layui-btn-sm data-add-btn" lay-event="add"> 上架商品 </button>
+                    <button class="layui-btn layui-btn-sm layui-btn-danger data-delete-btn" lay-event="delete"> 下架商品 </button>
 
                 </div>
             </script>
 
             <table class="layui-hide" id="currentTableId" lay-filter="currentTableFilter"></table>
 
+            @* <script type="text/html" id="currentTableBar">
+            <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">重新上架商品</a>
+            <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">下架商品</a>
+            </script>*@
             <script type="text/html" id="currentTableBar">
-                <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">编辑</a>
-                <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">删除</a>
-                @*<a class="layui-btn layui-btn layui-btn-xs " lay-event="TransferUser">绑定用户</a>
-                <a class="layui-btn layui-btn layui-btn-xs " lay-event="TransferMenu">绑定菜单</a>*@
+                {{# if(d.isDelete==1){}}
+                <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">重新上架商品</a>
+                {{# }else{ }}
+                 <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">下架商品</a>
+                {{# } }}
             </script>
 
+            <script type="text/html" id="isDelete">
+                {{# if(d.isDelete==0){}}
+                 <a class="layui-font-green">销售中</a>
+                {{# }else if(d.isDelete==1||d.num==0 ) { }}
+                 <a class="layui-font-orange">已下架/已售完</a>
+                {{# } }}
+            </script>
         </div>
     </div>
 
@@ -60,9 +80,23 @@
                 form = layui.form,
                 table = layui.table;
 
+            $.ajax({
+                url: "/Admin/DessertInfo/GetSelectOptions",
+                type: "Get",
+                success: function (res) {
+
+                    var dessertTypeSelect = res.data.dessertTypeSelect;
+                    for (var i = 0; i < dessertTypeSelect.length; i++) {
+                        $('#dessertTypeSelect').append('<Option value="' + dessertTypeSelect[i].value + '">' + dessertTypeSelect[i].title + '</Option>');
+                    }
+                    form.render('select');
+
+                }
+            })
+
             table.render({
                 elem: '#currentTableId',
-                url: '/Admin/MenuInfo/getMenuInfoDTOs',
+                url: '/Admin/DessertInfo/GetDessertInfo',
                 //url: '~/layuimini/api/table.json',
                 toolbar: '#toolbarDemo',
                 defaultToolbar: ['filter', 'exports', 'print', {
@@ -73,14 +107,12 @@
                 cols: [[
                     { type: "checkbox" },
                     { field: 'id', title: 'ID', sort: true, hide: true },
-                    { field: 'title', title: '标题' },
-                    { field: 'description', title: '描述', sort: true },
-                    { field: 'level', title: '等级', sort: true },
-                    { field: 'sort', title: '排序', sort: true },
-                    { field: 'href', title: '访问地址', sort: true },
-                    { field: 'parentId', title: '父级菜单', sort: true,},
-                    { field: 'icon', title: '图标样式', sort: true },
-                    { field: 'target', title: '目标', sort: true },
+                    { field: 'isDelete', title: '状态', templet: "#isDelete" },
+                    { field: 'dessertName', title: '商品名' },
+                    { field: 'dessertTypeName', title: '商品类别' },
+                    { field: 'price', title: '价格' },
+                    { field: 'num', title: '剩余数量' },
+                    { field: 'description', title: '描述' },
                     { field: 'createTime', title: '添加时间' },
                     { title: '操作', toolbar: '#currentTableBar', align: "center" }
                 ]],
@@ -104,7 +136,8 @@
                     }
                     , where: {
                         /*searchParams: result*/
-                        title: data.field.title
+                        dessertName: data.field.dessertName,
+                        dessertTypeId: data.field.dessertTypeId
                     }
                 }, 'data');
 
@@ -117,19 +150,19 @@
             table.on('toolbar(currentTableFilter)', function (obj) {
                 if (obj.event === 'add') {  // 监听添加操作
                     var index = layer.open({
-                        title: '添加用户',
+                        title: '上架商品',
                         type: 2,
                         shade: 0.2,
                         maxmin: true,
                         shadeClose: true,
                         area: ['80%', '80%'],
-                        content: '/Admin/MenuInfo/CreateMenuInfoView',
+                        content: '/Admin/DessertInfo/CreateDessertInfoView',
                     });
                     $(window).on("resize", function () {
                         layer.full(index);
                     });
                 }
-                
+
                 else if (obj.event === 'delete') {  // 监听删除操作
                     var checkStatus = table.checkStatus('currentTableId')
                         , data = checkStatus.data;
@@ -141,7 +174,7 @@
                     }
 
                     $.ajax({
-                        url: "/MenuInfo/DeleteMenuInfos",
+                        url: "/Admin/DessertInfo/DownDessertInfos",
                         type: "Post",
                         data: {
                             ids: ids
@@ -172,13 +205,13 @@
                 if (obj.event === 'edit') {
 
                     var index = layer.open({
-                        title: '编辑用户',
+                        title: '重新上架',
                         type: 2,
                         shade: 0.2,
                         maxmin: true,
                         shadeClose: true,
                         area: ['80%', '80%'],
-                        content: '/Admin/MenuInfo/UpdateMenuInfoView?id=' + data.id,
+                        content: '/Admin/DessertInfo/UpdateDessertInfoView?id=' + data.id,
                         success: function (layero, index) {
                             var iframe = window['layui-layer-iframe' + index];
                             iframe.getData(data)
@@ -189,24 +222,10 @@
                     });
                     return false;
                 }
-                else if (obj.event === 'TransferUser') {  // 监听删除操作
-                    var index = layer.open({
-                        title: '绑定用户',
-                        type: 2,
-                        shade: 0.2,
-                        maxmin: true,
-                        shadeClose: true,
-                        area: ['50%', '80%'],
-                        content: '/Admin/RoleInfo/RoleInfoTransferView?id=' + data.id,
-                    });
-                    $(window).on("resize", function () {
-                        layer.full(index);
-                    });
-                }
                 else if (obj.event === 'delete') {
-                    layer.confirm('真的删除么', function (index) {
+                    layer.confirm('真的下架么', function (index) {
                         $.ajax({
-                            url: "/Admin/MenuInfo/DeleteMenuInfo",
+                            url: "/Admin/DessertInfo/DownDessertInfo",
                             type: "Post",
                             data: {
                                 id: data.id
